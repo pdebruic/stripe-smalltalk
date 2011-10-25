@@ -4,5 +4,5 @@ initialize
 StripeSystem initialize
 "
 	self initializeStripeObjectDictionary.
-
+	self createFunctionNameInJSFunction
 	

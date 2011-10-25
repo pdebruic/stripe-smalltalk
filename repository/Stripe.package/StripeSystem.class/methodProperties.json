@@ -5,8 +5,9 @@
 		"root" : "PaulDeBruicker 10/24/2011 17:59"
 	},
 	"class" : {
+		"createFunctionNameInJSFunction" : "PaulDeBruicker 10/25/2011 21:47",
 		"default" : "PaulDeBruicker 10/24/2011 17:59",
-		"initialize" : "PaulDeBruicker 10/24/2011 21:00",
+		"initialize" : "PaulDeBruicker 10/25/2011 21:47",
 		"objectsToIds:" : "PaulDeBruicker 10/25/2011 09:06",
 		"initializeStripeObjectDictionary" : "PaulDeBruicker 10/25/2011 14:51",
 		"convert:toStripeObjectUsing:" : "PaulDeBruicker 10/25/2011 13:46",

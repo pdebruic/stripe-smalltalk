@@ -1,6 +1,6 @@
 {
 	"instance" : {
-		"initialize" : "PaulDeBruicker 10/25/2011 20:37",
+		"initialize" : "PaulDeBruicker 10/25/2011 21:46",
 		"asJson" : "PaulDeBruicker 10/24/2011 16:08",
 		"hasAnId" : "PaulDeBruicker 10/24/2011 15:10",
 		"values" : "PaulDeBruicker 10/25/2011 09:04",
@@ -17,7 +17,6 @@
 		"refreshFrom:with:" : "PaulDeBruicker 10/24/2011 15:42",
 		"url" : "PaulDeBruicker 10/24/2011 18:31",
 		"id" : "PaulDeBruicker 10/24/2011 20:10",
-		"createFunctionNameInJSFunction" : "PaulDeBruicker 10/25/2011 20:40",
 		"permanentAttributes" : "PaulDeBruicker 10/24/2011 15:54",
 		"keys" : "PaulDeBruicker 10/24/2011 16:08"
 	},

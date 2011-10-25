@@ -3,4 +3,4 @@ initialize
 	values:=Dictionary new.
 	unsavedValues:=Set new.
 	transientValues:=Set new. 
-	self createFunctionNameInJSFunction
+	
