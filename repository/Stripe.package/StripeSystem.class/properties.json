@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Stripe",
+	"classinstvars" : [
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"StripeObjectDictionary"
+	],
+	"instvars" : [
+		"root"
+	],
+	"name" : "StripeSystem",
+	"type" : "normal"
+}

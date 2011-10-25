@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "StripeError",
+	"category" : "Stripe",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "InvalidRequestError",
+	"type" : "normal"
+}

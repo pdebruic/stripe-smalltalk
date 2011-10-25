@@ -1,0 +1,18 @@
+as yet unclassified
+refreshFrom: aResponse with: anApiKey partially: aBoolean
+	|removedKeys addedKeys|
+		aResponse
+		at: 'error'
+		ifPresent: [:v |StripeError signal: ((aResponse at: 'error') at:'message')]
+		ifAbsent: [ 
+	apiKey := anApiKey.
+	removedKeys:=aBoolean ifTrue: [Set new] ifFalse:[Set newFrom:(values keys difference: aResponse keys)].
+	addedKeys :=Set newFrom:(aResponse keys difference: values keys).
+	unsavedValues:= Set newFrom: aResponse keys.
+	removedKeys do:[:each | values removeKey: each.
+						transientValues add: each.
+						unsavedValues remove: each.].
+	unsavedValues copy do:[:each | values at: each put: (StripeSystem convert: (aResponse at: each) toStripeObjectUsing: anApiKey).
+		transientValues remove: each ifAbsent: [].
+		unsavedValues remove: each ifAbsent:[]]].
+	

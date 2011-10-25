@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Stripe",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"created",
+		"description",
+		"apiKey",
+		"values",
+		"unsavedValues",
+		"transientValues"
+	],
+	"name" : "StripeObject",
+	"type" : "normal"
+}

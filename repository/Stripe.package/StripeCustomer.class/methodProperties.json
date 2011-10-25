@@ -1,0 +1,26 @@
+{
+	"instance" : {
+		"getUpcomingInvoice" : "PaulDeBruicker 10/25/2011 16:12",
+		"plan" : "PaulDeBruicker 10/25/2011 15:13",
+		"description" : "PaulDeBruicker 10/25/2011 11:44",
+		"invoiceUrl" : "PaulDeBruicker 10/25/2011 16:04",
+		"trial_end" : "PaulDeBruicker 10/25/2011 15:13",
+		"email" : "PaulDeBruicker 10/25/2011 11:44",
+		"updateSubscriptionTo:" : "PaulDeBruicker 10/25/2011 15:07",
+		"subscription" : "PaulDeBruicker 10/25/2011 15:13",
+		"coupon" : "PaulDeBruicker 10/25/2011 13:49",
+		"cancelSubscriptionNow" : "PaulDeBruicker 10/25/2011 15:20",
+		"subscriptionUrl" : "PaulDeBruicker 10/25/2011 15:07",
+		"updateSubscriptionToPlanNamed:" : "PaulDeBruicker 10/25/2011 15:03",
+		"createFromToken:with:" : "PaulDeBruicker 10/25/2011 11:34",
+		"createFromCard:with:" : "PaulDeBruicker 10/25/2011 11:33",
+		"object" : "PaulDeBruicker 10/24/2011 17:57",
+		"cancelSubscriptionAtEndOfCurrentPeriod" : "PaulDeBruicker 10/25/2011 15:11"
+	},
+	"class" : {
+		"newFromCard:with:" : "PaulDeBruicker 10/25/2011 11:34",
+		"newFromCard:" : "PaulDeBruicker 10/25/2011 11:34",
+		"newFromToken:with:" : "PaulDeBruicker 10/25/2011 11:35",
+		"newFromToken:" : "PaulDeBruicker 10/25/2011 11:35"
+	}
+}

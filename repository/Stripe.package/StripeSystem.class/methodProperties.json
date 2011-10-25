@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"at:" : "PaulDeBruicker 10/24/2011 17:58",
+		"instancesOf:" : "PaulDeBruicker 10/24/2011 17:58",
+		"root" : "PaulDeBruicker 10/24/2011 17:59"
+	},
+	"class" : {
+		"default" : "PaulDeBruicker 10/24/2011 17:59",
+		"initialize" : "PaulDeBruicker 10/24/2011 21:00",
+		"objectsToIds:" : "PaulDeBruicker 10/25/2011 09:06",
+		"initializeStripeObjectDictionary" : "PaulDeBruicker 10/25/2011 14:51",
+		"convert:toStripeObjectUsing:" : "PaulDeBruicker 10/25/2011 13:46",
+		"instancesOf:" : "PaulDeBruicker 10/24/2011 18:00",
+		"symbolizeNames:" : "PaulDeBruicker 10/24/2011 15:16"
+	}
+}

@@ -1,0 +1,1 @@
+You need to put your publishable key in the YOUR_PUBLISHABLE_KEY spot in the renderContentOn: method

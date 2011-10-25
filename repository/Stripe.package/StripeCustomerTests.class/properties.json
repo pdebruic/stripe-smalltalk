@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "StripeTests",
+	"category" : "Stripe-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"coupon",
+		"plan"
+	],
+	"name" : "StripeCustomerTests",
+	"type" : "normal"
+}
