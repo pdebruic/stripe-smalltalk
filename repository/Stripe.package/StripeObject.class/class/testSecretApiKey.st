@@ -1,3 +1,3 @@
 keys
 testSecretApiKey
-	^'Your Secret Key'
+	^'rh8qAIcHhBhRRiM3b7M6MCZSNLMQCQsF'
