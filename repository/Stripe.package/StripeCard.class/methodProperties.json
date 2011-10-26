@@ -12,15 +12,16 @@
 		"exp_year:" : "PaulDeBruicker 10/25/2011 08:58",
 		"address_state:" : "PaulDeBruicker 10/25/2011 08:57",
 		"address_zip" : "PaulDeBruicker 10/25/2011 08:59",
-		"cvc" : "PaulDeBruicker 10/25/2011 08:59",
 		"name:" : "PaulDeBruicker 10/25/2011 08:58",
+		"cvc" : "PaulDeBruicker 10/25/2011 08:59",
 		"number" : "PaulDeBruicker 10/25/2011 08:59",
 		"address_line2" : "PaulDeBruicker 10/25/2011 08:58",
-		"createToken" : "PaulDeBruicker 10/25/2011 14:51",
 		"number:" : "PaulDeBruicker 10/25/2011 08:58",
 		"address_country:" : "PaulDeBruicker 10/25/2011 08:56",
 		"exp_month:" : "PaulDeBruicker 10/25/2011 08:57",
 		"cvc:" : "PaulDeBruicker 10/25/2011 08:57"
 	},
-	"class" : { }
+	"class" : {
+		"classUrlComponent" : "PaulDeBruicker 10/26/2011 07:21"
+	}
 }

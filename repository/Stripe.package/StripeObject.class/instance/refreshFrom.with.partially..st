@@ -1,13 +1,12 @@
 as yet unclassified
 refreshFrom: aResponse with: anApiKey partially: aBoolean
-	|removedKeys addedKeys|
+	|removedKeys|
 		aResponse
 		at: 'error'
 		ifPresent: [:v |StripeError signal: ((aResponse at: 'error') at:'message')]
 		ifAbsent: [ 
 	apiKey := anApiKey.
 	removedKeys:=aBoolean ifTrue: [Set new] ifFalse:[Set newFrom:(values keys difference: aResponse keys)].
-	addedKeys :=Set newFrom:(aResponse keys difference: values keys).
 	unsavedValues:= Set newFrom: aResponse keys.
 	removedKeys do:[:each | values removeKey: each.
 						transientValues add: each.

@@ -12,6 +12,7 @@
 		"initializeStripeObjectDictionary" : "PaulDeBruicker 10/25/2011 14:51",
 		"convert:toStripeObjectUsing:" : "PaulDeBruicker 10/25/2011 13:46",
 		"instancesOf:" : "PaulDeBruicker 10/24/2011 18:00",
+		"logStripeClientToTranscript" : "PaulDeBruicker 10/26/2011 07:33",
 		"symbolizeNames:" : "PaulDeBruicker 10/24/2011 15:16"
 	}
 }

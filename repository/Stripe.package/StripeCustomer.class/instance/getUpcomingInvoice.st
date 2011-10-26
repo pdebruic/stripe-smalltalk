@@ -1,12 +1,10 @@
 invoices
 getUpcomingInvoice
-
-	|response client parsed |
-	client:= (ZnNeoClient new) logToTranscript.
-	client username: self class secretApiKey password:''.
-	client url: self  invoiceUrl.
-	client queryAt: 'customer' put:self id. 
-	response:= client get .
-	parsed:=JSJsonParser parse: response asString readStream. 
-	parsed at:'error' ifPresent:[:v| StripeError new signal:((parsed at:'error') at:'message')]ifAbsent:[
-	^StripeSystem convert: parsed toStripeObjectUsing: self class secretApiKey]
+	| response client |
+	client := self stripeClient.
+	client url: self invoiceUrl.
+	client queryAt: 'customer' put: self id.
+	response := client get.
+	self
+		handleResponse: response
+		andIfSuccessful: [ :parsedResponse | ^ StripeSystem convert: parsedResponse toStripeObjectUsing: self class secretApiKey ]
