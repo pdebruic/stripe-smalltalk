@@ -1,7 +1,8 @@
 as yet unclassified
 createWith: aDictionary
 	| response client |
-	client := self stripeClient client formAddAll: aDictionary.
+	client := self stripeClient.
+	client formAddAll: aDictionary.
 	response := client
 		url: self class url;
 		post.
