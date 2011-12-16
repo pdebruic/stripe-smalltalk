@@ -1,3 +1,3 @@
 keys
 testSecretApiKey
-	^'Your Secret Key'
+	^ 'Your test secret key'

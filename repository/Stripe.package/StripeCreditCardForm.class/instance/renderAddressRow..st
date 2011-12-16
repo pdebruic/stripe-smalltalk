@@ -5,7 +5,7 @@ renderAddressRow: html
 		with: [ 
 					html label
 						for: self addressOneDiv;
-						with: 'Street Address:'.
+						with: 'Billing Street Address:'.
 					html break.
 					html textInput
 						name: nil;

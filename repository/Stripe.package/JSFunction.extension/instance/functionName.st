@@ -1,3 +1,5 @@
 *stripe
-functionName 
-	^functionName isNil ifTrue: ['function('] ifFalse:['function ', functionName , '('] 
+functionName
+	^ functionNamed isNil
+		ifTrue: [ 'function (' ]
+		ifFalse: [ 'function ' , functionNamed , '(' ]

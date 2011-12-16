@@ -1,3 +1,3 @@
 *stripe
 functionName: aNameString
-	functionName:=aNameString
+	functionNamed := aNameString

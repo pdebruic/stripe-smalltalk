@@ -10,4 +10,5 @@ createWith: aDictionary
 		handleResponse: response
 		andIfSuccessful: [ :parsedResponse | 
 			self refreshFrom: parsedResponse with: self class secretApiKey.
-			self class instances add: self ]
+			self class instances add: self.
+			created := DateAndTime now ]

@@ -1,3 +1,3 @@
 keys
-testPublishableAPIKey 
-	^'Your Publishable Key'
+testPublishableAPIKey
+	^ 'Your test publishable key'

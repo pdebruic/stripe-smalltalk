@@ -5,10 +5,11 @@ renderCVCRow: html
 		with: [ 
 					html label
 						for: self cvcDiv;
-						with: 'CVC:'.
-						html break.
+						with: 'CVV:'.
+					html break.
 					html textInput
 						name: nil;
 						id: self cvcDiv;
 						size: 4;
-						noAutocomplete  ]
+						noAutocomplete.
+					self renderWhatIsMyCVV: html ]
