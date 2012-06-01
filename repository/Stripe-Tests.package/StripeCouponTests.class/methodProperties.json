@@ -1,0 +1,8 @@
+{
+	"instance" : {
+		"testCreateCoupon" : "PaulDeBruicker 5/15/2012 16:14",
+		"testDeleteCoupon" : "PaulDeBruicker 5/15/2012 16:17",
+		"testRetrieveCoupon" : "PaulDeBruicker 5/15/2012 16:15"
+	},
+	"class" : { }
+}

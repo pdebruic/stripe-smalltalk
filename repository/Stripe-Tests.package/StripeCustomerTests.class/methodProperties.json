@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"testUpdateCustomer" : "PaulDeBruicker 6/1/2012 17:07",
+		"tearDown" : "PaulDeBruicker 5/15/2012 16:14",
+		"testCancelCustomerSubscription" : "PaulDeBruicker 6/1/2012 17:07",
+		"setUp" : "PaulDeBruicker 5/15/2012 16:13",
+		"testCreateCustomer" : "PaulDeBruicker 6/1/2012 17:07"
+	},
+	"class" : { }
+}

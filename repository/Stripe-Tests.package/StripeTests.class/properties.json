@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Stripe-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"card",
+		"amount",
+		"plan",
+		"customer"
+	],
+	"name" : "StripeTests",
+	"type" : "normal"
+}
