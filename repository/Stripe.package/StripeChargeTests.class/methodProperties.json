@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"testChargeCard" : "PaulDeBruicker 10/25/2011 11:24",
-		"testRetrieveRecentCharges" : "PaulDeBruicker 10/25/2011 11:21",
-		"testRefundCharge" : "PaulDeBruicker 10/25/2011 10:13",
-		"testRetrieveCharge" : "PaulDeBruicker 10/25/2011 10:52"
-	},
-	"class" : { }
-}

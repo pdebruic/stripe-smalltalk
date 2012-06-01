@@ -1,3 +1,3 @@
 keys
 secretApiKey
-	^self testSecretApiKey 
+	^ self testSecretApiKey

@@ -1,8 +1,7 @@
 retrieving
 retrieveFromStripe
-	| response client  |
-	client := self stripeClient.
-	response := client
+	| response client |
+	response := self httpClient
 		url: self retrievalUrl;
 		get.
 	self

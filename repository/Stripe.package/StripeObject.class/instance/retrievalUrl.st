@@ -1,3 +1,3 @@
 retrieving
-retrievalUrl 
-	^self class url , '/' , self id
+retrievalUrl
+	^ self class url , '/' , self id

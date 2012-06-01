@@ -1,3 +1,3 @@
 as yet unclassified
-logStripeClientToTranscript 
-	^false
+logStripeClientToTranscript
+	^ false

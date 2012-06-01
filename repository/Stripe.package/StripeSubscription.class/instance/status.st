@@ -1,3 +1,3 @@
 accessing
 status
-	^values at:'status'
+	^ self valueFor: 'status'

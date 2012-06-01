@@ -1,3 +1,0 @@
-divIDs
-zipDiv
-	^'zipcode'

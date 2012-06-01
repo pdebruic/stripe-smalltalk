@@ -1,4 +1,3 @@
 as yet unclassified
-description 
-	^values at:'description'
-	
+description
+	^ self valueFor: 'description'

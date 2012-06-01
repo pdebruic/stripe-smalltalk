@@ -1,3 +1,3 @@
 accessing
 cvc
-	^ values at: 'cvc'
+	^ self valueFor: 'cvc'

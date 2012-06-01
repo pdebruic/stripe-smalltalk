@@ -1,3 +1,0 @@
-divIDs
-cardNumberDiv
-	^'card-number'

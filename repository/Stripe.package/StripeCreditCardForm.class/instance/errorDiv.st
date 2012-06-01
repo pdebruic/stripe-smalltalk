@@ -1,3 +1,0 @@
-divIDs
-errorDiv 
-	^'card-error'

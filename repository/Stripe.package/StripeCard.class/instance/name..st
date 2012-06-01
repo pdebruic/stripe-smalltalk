@@ -1,3 +1,3 @@
 accessing
 name: anObject
-	values at: 'name' put: anObject
+	self setValue: 'name' to: anObject

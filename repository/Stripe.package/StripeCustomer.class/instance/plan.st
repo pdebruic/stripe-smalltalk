@@ -1,3 +1,3 @@
 as yet unclassified
 plan
-	^self subscription plan
+	^ self subscription plan

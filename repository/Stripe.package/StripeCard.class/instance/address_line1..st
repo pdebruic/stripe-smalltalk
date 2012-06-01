@@ -1,3 +1,3 @@
 accessing
 address_line1: anObject
-	values at: 'address_line1' put: anObject
+	self setValue: 'address_line1' to: anObject

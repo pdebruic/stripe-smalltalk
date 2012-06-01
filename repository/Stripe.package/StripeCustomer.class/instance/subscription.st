@@ -1,3 +1,3 @@
 as yet unclassified
 subscription
-	^(values at: 'subscription') 
+	^ self valueFor: 'subscription'

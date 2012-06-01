@@ -1,9 +1,8 @@
 as yet unclassified
 updateWith: optionalDictionary
-	| response client |
-	client := self stripeClient.
-	client formAddAll: optionalDictionary.
-	response := client
+	| response |
+	response := self httpClient
+		formAddAll: optionalDictionary;
 		url: self updateUrl;
 		post.
 	self

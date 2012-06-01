@@ -1,3 +1,3 @@
 accessing
 exp_month: anObject
-	values at: 'exp_month' put: anObject
+	self setValue: 'exp_month' to: anObject

@@ -1,3 +1,3 @@
 deleting
-updateUrl 
-	^self class url , '/' , self id
+updateUrl
+	^ self class url , '/' , self id

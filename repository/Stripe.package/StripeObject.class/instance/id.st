@@ -1,4 +1,3 @@
 accessing
 id
-	
-	^ id ifNil:[id:=values at: 'id']
+	^ id ifNil: [ id := self valueFor: 'id' ]

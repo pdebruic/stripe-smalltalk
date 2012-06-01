@@ -1,3 +1,3 @@
 as yet unclassified
 coupon
-	^values at: 'coupon'
+	^ self valueFor: 'coupon'

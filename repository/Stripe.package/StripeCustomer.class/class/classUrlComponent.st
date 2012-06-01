@@ -1,3 +1,3 @@
 instance creation
 classUrlComponent
-	^'/customers'
+	^ '/customers'

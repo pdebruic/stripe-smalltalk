@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "StripeObject",
+	"category" : "Stripe",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "StripeEvent",
+	"type" : "normal"
+}

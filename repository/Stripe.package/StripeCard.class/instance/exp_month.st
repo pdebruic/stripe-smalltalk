@@ -1,3 +1,3 @@
 accessing
 exp_month
-	^ values at: 'exp_month'
+	^ self valueFor: 'exp_month'

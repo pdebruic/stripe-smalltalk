@@ -1,3 +1,0 @@
-divIDs
-nameDiv
-	^ 'cc-name'

@@ -1,3 +1,3 @@
 deleting
-isATestObject 
-	^self livemode = false 
+isATestObject
+	^ self livemode

@@ -1,3 +1,3 @@
 as yet unclassified
 classUrlComponent
-	^'/cards'
+	^ '/cards'

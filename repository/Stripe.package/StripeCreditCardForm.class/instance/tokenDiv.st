@@ -1,3 +1,0 @@
-divIDs
-tokenDiv
-	^'cc-token'

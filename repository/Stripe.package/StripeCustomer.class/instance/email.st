@@ -1,3 +1,3 @@
 as yet unclassified
 email
-	^values at: 'email'
+	^ self valueFor: 'email'

@@ -1,3 +1,0 @@
-divIDs
-formDiv
-	^'payment-form'

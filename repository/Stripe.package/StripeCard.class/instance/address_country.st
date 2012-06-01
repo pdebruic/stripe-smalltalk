@@ -1,3 +1,3 @@
 accessing
 address_country
-	^ values at: 'address_country'
+	^ self valueFor: 'address_country'

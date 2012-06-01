@@ -1,11 +1,12 @@
 subscriptions
-updateSubscriptionTo: aDictionary
-	| response client |
-	client := self stripeClient.
-	client formAddAll: aDictionary.
-	response := client
+updateSubscriptionTo: aPlan
+	| response dict |
+	dict := Dictionary new.
+	dict at: 'plan' put: aPlan id.
+	response := self httpClient
+		formAddAll: dict;
 		url: self subscriptionUrl;
 		post.
 	self
 		handleResponse: response
-		andIfSuccessful: [ :parsedResponse | self refreshFrom: parsedResponse with: self class secretApiKey partially: true ]
+		andIfSuccessful: [ :parsedResponse | self setValue: 'subscription' to: (StripeSubscription new refreshFrom: parsedResponse with: self class secretApiKey) ]

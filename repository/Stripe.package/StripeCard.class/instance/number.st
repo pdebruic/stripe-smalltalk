@@ -1,3 +1,3 @@
 accessing
 number
-	^ values at: 'number'
+	^ self valueFor: 'number'

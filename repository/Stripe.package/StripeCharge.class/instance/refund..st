@@ -1,9 +1,8 @@
 as yet unclassified
 refund: anAmount
-	| response client  |
-	client := self stripeClient.
-	client formAt: 'amount' put: anAmount asString.
-	response := client
+	| response |
+	response := self httpClient
+		formAt: 'amount' put: anAmount asString;
 		url: self refundUrl;
 		post.
 	self

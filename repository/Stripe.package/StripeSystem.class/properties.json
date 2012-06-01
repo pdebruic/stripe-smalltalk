@@ -1,9 +1,10 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "PaulDeBruicker 6/1/2012 17:26",
 	"super" : "Object",
 	"category" : "Stripe",
 	"classinstvars" : [
-		"default"
+		"default",
+		"webhookServer"
 	],
 	"pools" : [ ],
 	"classvars" : [

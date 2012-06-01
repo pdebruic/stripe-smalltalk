@@ -1,3 +1,3 @@
 urls
 classUrlComponent
-	self shouldNotImplement 
+	self shouldNotImplement

@@ -1,3 +1,3 @@
 invoices
 invoiceUrl
-	^StripeInvoice url ,'/upcoming'
+	^ StripeInvoice url , '/upcoming'

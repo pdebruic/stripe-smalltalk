@@ -1,3 +1,3 @@
 accessing
 cvc: anObject
-	values at: 'cvc' put: anObject
+	self setValue: 'cvc' to: anObject

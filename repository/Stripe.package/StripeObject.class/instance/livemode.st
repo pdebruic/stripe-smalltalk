@@ -1,3 +1,3 @@
 deleting
 livemode
-	^(values at: 'livemode')
+	^ self valueFor: 'livemode'

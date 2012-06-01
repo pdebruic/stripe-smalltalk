@@ -1,3 +1,3 @@
 accessing
 address_line2
-	^ values at: 'address_line2'
+	^ self valueFor: 'address_line2'

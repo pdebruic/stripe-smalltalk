@@ -1,3 +1,3 @@
 subscriptions
 subscriptionUrl
-	^self updateUrl , '/subscription'  
+	^ self updateUrl , '/subscription'

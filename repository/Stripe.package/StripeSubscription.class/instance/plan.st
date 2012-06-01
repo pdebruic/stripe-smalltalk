@@ -1,3 +1,3 @@
 accessing
 plan
-	^values at: 'plan'
+	^ self valueFor: 'plan'

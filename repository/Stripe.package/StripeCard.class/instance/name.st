@@ -1,3 +1,3 @@
 accessing
 name
-	^ values at: 'name'
+	^ self valueFor: 'name'

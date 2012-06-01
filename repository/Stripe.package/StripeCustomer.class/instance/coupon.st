@@ -1,3 +1,3 @@
 as yet unclassified
 coupon
-	^(values at:'discount') coupon
+	^ (self valueFor: 'discount') coupon

@@ -1,3 +1,3 @@
 as yet unclassified
 url
-	^self class url ,'/', id greaseString encodeForHTTP  
+	^ self class url , '/' , id greaseString encodeForHTTP

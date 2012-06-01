@@ -1,3 +1,3 @@
 storing
 removeTestObjects
-	self instances removeAllSuchThat:[:each | each isATestObject]
+	self instances removeAllSuchThat: [ :each | each isATestObject ]

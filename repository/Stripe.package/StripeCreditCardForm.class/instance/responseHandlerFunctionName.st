@@ -1,3 +1,0 @@
-javascript
-responseHandlerFunctionName
-	^'stripeResponseHandler'
