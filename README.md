@@ -3,15 +3,22 @@ stripe-smalltalk
 
 Smalltalk implementation of the Stripe API. You need a free account from [Stripe](http://www.stripe.com) to get the API keys. 
 
+
 SSL support
 -----------
 To interact with the Stripe servers you must connect to them using HTTPS.  The [SqueakSSLPlugin](https://code.google.com/p/squeakssl/) works in Squeak and Pharo.  But I wrote the http client behavoirs using [Zinc](http://zn.stfx.eu/zn/index.html) (Zinc uses [Zodiac](http://zdc.stfx.eu/) for ssl) which may or may not work in Squeak. If not it shouldn't be too hard to abstract out the Zinc parts and put [WebClient](http://www.squeaksource.com/WebClient.html) in its place. 
 
-I think that on Gemstone you're options are to proxy the HTTPS client traffic through nginx or apache or to use an stunnel. Sean Allen has a description of [how to use nginx as an https client](http://www.monkeysnatchbanana.com/posts/2010/06/22/faking-a-https-client-for-glass.html).  The Zinc port for Gemstone that I started and Dale Henrichs has been improving is [here](https://github.com/glassdb/zinc) and should work fine.
+I think that on Gemstone your options are to proxy the HTTPS client traffic through nginx or apache or to use an stunnel. Sean Allen has a description of [how to use nginx as an https client](http://www.monkeysnatchbanana.com/posts/2010/06/22/faking-a-https-client-for-glass.html).  The Zinc port for Gemstone that I started and Dale Henrichs has been improving is [here](https://github.com/glassdb/zinc) and should work fine.
 
 Supported Smalltalks
 --------------------
 So far its only been tested and known to work on Pharo 1.3.  I plan to test on Squeak, Gemstone 2.4, and Pharo 1.4 but haven't yet.  I don't think there is anything preventing it from working right now on those untested platforms I just haven't loaded it up and tried yet
+
+
+Installation using Squeaksource packages
+===================================
+I'm trying to use Stripe.com on Pharo and Gemstone I'm going to attempt to use github and follow a branch-per-platform model. The Squeaksource installation instructions use Metacello to load the Stripe packages from Squeaksource.
+
 
 
 Basic Installation
