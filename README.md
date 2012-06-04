@@ -15,9 +15,9 @@ The [Metacello](https://code.google.com/p/metacello/) configuration on squeaksou
 
 To load the configuation run:
 
-`Gofer new
-        squeaksource: 'Stripe';
-        package: 'ConfigurationOfStripe';
-        load. `
+        `Gofer new
+                squeaksource: 'Stripe';
+                package: 'ConfigurationOfStripe';
+                load. 
 
-`(Smalltalk at: #ConfigurationOfAthens) load`
+        (Smalltalk at: #ConfigurationOfAthens) load`
