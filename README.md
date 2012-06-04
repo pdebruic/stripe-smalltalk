@@ -9,6 +9,11 @@ To interact with the Stripe servers you must connect to them using HTTPS.  The [
 
 I think that on Gemstone you're options are to proxy the HTTPS client traffic through nginx or apache or to use an stunnel. Sean Allen has a description of [how to use nginx as an https client](http://www.monkeysnatchbanana.com/posts/2010/06/22/faking-a-https-client-for-glass.html)
 
+Supported Smalltalks
+--------------------
+So far its only been tested and known to work on Pharo 1.3.  I plan to test on Squeak, Gemstone 2.4, and Pharo 1.4 but haven't yet.  I don't think there is anything preventing it from working right now on those untested platforms I just haven't loaded it up and tried yet
+
+
 Installation
 ------------
 The [Metacello](https://code.google.com/p/metacello/) configuration on squeaksource or here can install what you need to interact with the API.  The basic configuration assumes you are proxying your https traffic through a webserver or stunnel.  For Pharo you can install the 'Stripe-Zodiac' group plus the SqueakSSLPlugin from the link above to do everything from within an image.
@@ -20,4 +25,4 @@ To load the configuation run:
                 package: 'ConfigurationOfStripe';
                 load. 
 
-        (Smalltalk at: #ConfigurationOfAthens) load`
+        (Smalltalk at: #ConfigurationOfStripe) load`
