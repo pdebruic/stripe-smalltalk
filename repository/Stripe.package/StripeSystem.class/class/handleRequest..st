@@ -4,7 +4,7 @@ handleRequest: aRequest
 	"should only be a POST from stripe"
 	aRequest method == #POST
 		ifTrue: [ 
-			jsonData := JSJsonParser parse: aRequest entity.
+			jsonData :=  Json readFrom: aRequest entity.
 			(jsonData at: 'object') = 'event'
 				ifTrue: [ 
 					StripeEvent newWithEventDetailsFromStripeFor: (jsonData at: 'id').

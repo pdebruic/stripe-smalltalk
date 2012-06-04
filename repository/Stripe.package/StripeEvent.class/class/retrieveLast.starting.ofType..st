@@ -9,5 +9,5 @@ retrieveLast: aCount starting: anOffset ofType: anEventType
 	anEventType isEmptyOrNil
 		ifFalse: [ client queryAt: 'type' put: anEventType ].
 	response := client get.
-	parsed := JSJsonParser parse: response asString readStream.
+	parsed :=  Json readFrom: response asString readStream.
 	^ StripeSystem convert: (parsed at: 'data') toStripeObjectUsing: self secretApiKey

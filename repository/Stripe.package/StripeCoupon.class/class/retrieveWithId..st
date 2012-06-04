@@ -5,7 +5,7 @@ retrieveWithId: anId
 	client username: self secretApiKey password: ''.
 	client url: self url , '/' , anId.
 	response := client get.
-	parsed := JSJsonParser parse: response asString readStream.
+	parsed := Json readFrom: response asString readStream.
 	parsed
 		at: 'error'
 		ifPresent: [ :v | ^ nil ]

@@ -6,7 +6,7 @@
 	},
 	"class" : {
 		"default" : "PaulDeBruicker 6/1/2012 17:22",
-		"handleRequest:" : "PaulDeBruicker 6/1/2012 17:07",
+		"handleRequest:" : "PaulDeBruicker 6/4/2012 13:07",
 		"instancesOf:" : "PaulDeBruicker 10/24/2011 18:00",
 		"convert:toStripeObjectUsing:" : "PaulDeBruicker 6/1/2012 17:07",
 		"stopWebhookServerOn:" : "PaulDeBruicker 5/16/2012 10:08",

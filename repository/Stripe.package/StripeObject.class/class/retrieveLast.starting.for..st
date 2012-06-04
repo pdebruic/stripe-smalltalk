@@ -9,5 +9,5 @@ retrieveLast: aCount starting: anOffset for: aCustomer
 	aCustomer isEmptyOrNil
 		ifFalse: [ client queryAt: 'customer' put: aCustomer ].
 	response := client get.
-	parsed := JSJsonParser parse: response asString readStream.
+	parsed := Json readFrom: response asString readStream.
 	^ StripeSystem convert: (parsed at: 'data') toStripeObjectUsing: self secretApiKey
