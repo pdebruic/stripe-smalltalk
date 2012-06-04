@@ -39,7 +39,8 @@
 		"renderForm:" : "PaulDeBruicker 12/16/2011 13:07"
 	},
 	"class" : {
-		"initialize" : "PaulDeBruicker 6/1/2012 17:07",
+		"createFunctionNameInJSFunction" : "PaulDeBruicker 6/4/2012 12:30",
+		"initialize" : "PaulDeBruicker 6/4/2012 12:30",
 		"canBeRoot" : "PaulDeBruicker 10/21/2011 15:17"
 	}
 }
