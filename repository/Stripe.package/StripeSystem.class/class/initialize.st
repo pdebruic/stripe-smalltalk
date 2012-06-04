@@ -4,4 +4,5 @@ initialize
 StripeSystem initialize
 "
 
-	self initializeStripeObjectDictionary
+	self initializeStripeObjectDictionary.
+	
