@@ -1,0 +1,22 @@
+{
+	"category" : "Stripe",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "PaulDeBruicker 6/1/2012 17:26",
+	"instvars" : [
+		"id",
+		"created",
+		"description",
+		"apiKey",
+		"values",
+		"unsavedValues",
+		"transientValues" ],
+	"name" : "StripeObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

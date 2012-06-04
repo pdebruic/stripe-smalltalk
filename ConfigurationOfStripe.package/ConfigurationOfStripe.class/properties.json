@@ -1,0 +1,16 @@
+{
+	"category" : "ConfigurationOfStripe",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "PaulDeBruicker 6/1/2012 17:18",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfStripe",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

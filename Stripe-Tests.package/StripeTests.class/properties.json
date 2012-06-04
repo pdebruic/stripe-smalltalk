@@ -1,0 +1,19 @@
+{
+	"category" : "Stripe-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"card",
+		"amount",
+		"plan",
+		"customer" ],
+	"name" : "StripeTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Stripe",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CardError",
+	"pools" : [
+		 ],
+	"super" : "StripeError",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

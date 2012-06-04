@@ -1,0 +1,16 @@
+{
+	"category" : "Stripe-Seaside",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "PaulDeBruicker 10/21/2011 14:45",
+	"instvars" : [
+		"token" ],
+	"name" : "StripeCreditCardForm",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

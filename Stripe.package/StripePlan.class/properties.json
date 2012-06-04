@@ -1,0 +1,16 @@
+{
+	"category" : "Stripe",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StripePlan",
+	"pools" : [
+		 ],
+	"super" : "StripeObject",
+	"traitcomposition" : "{}",
+	"type" : "normal" }

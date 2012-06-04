@@ -1,0 +1,16 @@
+{
+	"category" : "Stripe-Tests",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "{}",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StripeTokenTests",
+	"pools" : [
+		 ],
+	"super" : "StripeTests",
+	"traitcomposition" : "{}",
+	"type" : "normal" }
