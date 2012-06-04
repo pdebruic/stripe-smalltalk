@@ -11,14 +11,13 @@
 		"convert:toStripeObjectUsing:" : "PaulDeBruicker 6/1/2012 17:07",
 		"stopWebhookServerOn:" : "PaulDeBruicker 5/16/2012 10:08",
 		"webhookServer:" : "PaulDeBruicker 6/1/2012 17:07",
-		"initialize" : "PaulDeBruicker 6/1/2012 17:07",
+		"initialize" : "PaulDeBruicker 6/4/2012 12:31",
 		"objectsToIds:" : "PaulDeBruicker 6/1/2012 17:07",
 		"logStripeClientToTranscript" : "PaulDeBruicker 6/1/2012 17:07",
 		"initializeStripeObjectDictionary" : "PaulDeBruicker 5/16/2012 09:54",
 		"startSampleWebhookServer" : "PaulDeBruicker 5/16/2012 10:41",
 		"startWebhookServerOn:" : "PaulDeBruicker 5/16/2012 09:51",
 		"symbolizeNames:" : "PaulDeBruicker 10/24/2011 15:16",
-		"createFunctionNameInJSFunction" : "PaulDeBruicker 6/1/2012 17:07",
 		"webhookServer" : "PaulDeBruicker 6/1/2012 17:07"
 	}
 }
