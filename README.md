@@ -67,7 +67,7 @@ You have to install the [FileTree](https://github.com/dalehenrich/filetree) Mont
 Basic Installation
 ------------------
 
-1. Load JSON package.
+1. Load JSON.
 
         `Gofer new
                 squeaksource:'JSON';
@@ -85,8 +85,8 @@ Basic Installation
 3. Load Stripe core package
         a. Clone from github:
 
-                `git clone https://github.com/pdebruic/stripe-smalltalk.git`
-
+                        `git clone https://github.com/pdebruic/stripe-smalltalk.git`
+        
         b. Load from the git repo:
         
                 `Gofer new
