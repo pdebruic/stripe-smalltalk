@@ -84,17 +84,17 @@ Basic Installation
 
 3. Load Stripe core package
 
-        Clone from github:
+        #Clone from github:
 
-        `git clone https://github.com/pdebruic/stripe-smalltalk.git`
+        git clone https://github.com/pdebruic/stripe-smalltalk.git
         
-        Load from the git repo:
+        #Load from the git repo:
         
-        `Gofer new
+        Gofer new
                 repository: (MCFileTreeRepository new directory: 
                                 (FileDirectory on: '/path/to/your/stripe/git/repository/'));
                 package: 'Stripe';
-                load.`
+                load.
 
 4. Set the API keys in the class side of StripeObject to your API keys.
 
