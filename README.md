@@ -84,11 +84,11 @@ Basic Installation
 
 3. Load Stripe core package
 
-* Clone from github:
+        Clone from github:
 
         `git clone https://github.com/pdebruic/stripe-smalltalk.git`
         
-* Load from the git repo:
+        Load from the git repo:
         
         `Gofer new
                 repository: (MCFileTreeRepository new directory: 
