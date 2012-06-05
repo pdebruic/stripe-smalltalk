@@ -81,14 +81,16 @@ Basic Installation
                 package:'ConfigurationOfZincHTTPComponents';
                 load.'
         (Smalltalk at: #ConfigurationOfZincHTTPComponents') load.`
+        
+1. Load FileTree by following the instructions for your platform [here]((https://github.com/dalehenrich/filetree))
 
 3. Load Stripe core package
 
-        #Clone from github:
+        #Clone from github into a local directory in your file system:
 
         git clone https://github.com/pdebruic/stripe-smalltalk.git
         
-        #Load from the git repo:
+        #Load from the git repo you just created into your image:
         
         Gofer new
                 repository: (MCFileTreeRepository new directory: 
@@ -99,4 +101,13 @@ Basic Installation
 4. Set the API keys in the class side of StripeObject to your API keys.
 
 Seaside Example
-==================
+---------------
+Follow the basic instructions above then:
+
+1. Load the latest stable Seaside (3.0.7 right now)
+        
+        `Gofer new
+                 squeaksource: 'MetacelloRepository';
+                 package: 'ConfigurationOfSeaside30';
+                load.
+        (Smalltalk at: #ConfigurationOfSeaside30) load.`
