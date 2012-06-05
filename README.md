@@ -111,3 +111,23 @@ Follow the basic instructions above then:
                  package: 'ConfigurationOfSeaside30';
                 load.
         (Smalltalk at: #ConfigurationOfSeaside30) load.`
+
+1. Load the 'Stripe-Seaside' package from your local copy of this git repository:
+
+         `Gofer new
+                repository: (MCFileTreeRepository new directory: 
+                                (FileDirectory on: '/path/to/your/stripe/git/repository/'));
+                package: 'Stripe-Seaside';
+                load.`
+                
+Tests
+--------------------
+The tests require you to use your secret test API keys for them to run successfully. Follow the basic instructions above then
+
+1. Load the 'Stripe-Tests' package from your local copy of this git repository:
+
+         `Gofer new
+                repository: (MCFileTreeRepository new directory: 
+                                (FileDirectory on: '/path/to/your/stripe/git/repository/'));
+                package: 'Stripe-Tests';
+                load.`
