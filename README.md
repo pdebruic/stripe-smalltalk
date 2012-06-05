@@ -68,25 +68,33 @@ Basic Installation
 ------------------
 
 1. Load JSON package.
+
         `Gofer new
                 squeaksource:'JSON';
                 package:'JSON';
                 load.`
+
 2. Load Zinc.
+
         `Gofer new
                 squeaksource:'ZincHTTPComponents';
                 package:'ConfigurationOfZincHTTPComponents';
                 load.'
         (Smalltalk at: #ConfigurationOfZincHTTPComponents') load.`
+
 3. Load Stripe core package
         a. Clone from github:
-                `git clone https://github.com/pdebruic/stripe-smalltalk.git'
+
+                `git clone https://github.com/pdebruic/stripe-smalltalk.git`
+
         b. Load from the git repo:
+        
                 `Gofer new
                         repository: (MCFileTreeRepository new directory: 
                                         (FileDirectory on: '/path/to/your/stripe/git/repository/'));
                         package: 'Stripe';
                         load.`
+
 4. Set the API keys in the class side of StripeObject to your API keys.
 
 Seaside Example
