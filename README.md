@@ -83,11 +83,12 @@ Basic Installation
         (Smalltalk at: #ConfigurationOfZincHTTPComponents') load.`
 
 3. Load Stripe core package
-        a. Clone from github:
+
+        * Clone from github:
 
                         `git clone https://github.com/pdebruic/stripe-smalltalk.git`
         
-        b. Load from the git repo:
+        * Load from the git repo:
         
                 `Gofer new
                         repository: (MCFileTreeRepository new directory: 
