@@ -16,7 +16,7 @@ So far its only been tested and known to work on Pharo 1.3.  I plan to test on S
 
 ###WebHooks
 You can receive Stripe WebHooks if you start the server mentioned in the class side of StripeSystem and create a way for the Stripe servers to reach your image.  See the class comment for StripeSystem for ideas.   The events will be stored in the image as instances of StripeEvent for you to use or log to a file or database for other purposes.  I'm using the [Toothpick](http://www.metaprog.com/Toothpick/index.html) logging framework to put them in Riak.  
------------
+
 
 ##Installation using SqueakSource packages
 I'm trying to use Stripe.com on Pharo and Gemstone I'm going to attempt to use github and follow a branch-per-platform model. The SqueakSource installation instructions use Metacello to load the Stripe packages from SqueakSource not from github.
