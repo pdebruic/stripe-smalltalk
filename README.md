@@ -55,7 +55,7 @@ It can be loaded by running
 
 Tests
 ---------------
-The package 'Stripe-Tests' provides tests that rely on your secret *test* API keys to run successfully.  Be sure to check that you are using the *test* keys rather than the *live* keys.  Using the live keys should just result in all the tests failing but I'm not sure as I have not tried it yet.
+The package 'Stripe-Tests' provides tests that rely on your secret **test** API keys to run successfully.  Be sure to check that you are using the **test** keys rather than the **live** keys.  Using the live keys should just result in all the tests failing but I'm not sure as I have not tried it yet.
 
         `Gofer new
                 squeaksource: 'Stripe';
@@ -124,7 +124,7 @@ Follow the basic instructions above then:
                 
 Tests
 --------------------
-The tests  that rely on your secret *test* API keys to run successfully.  Be sure to check that you are using the *test* keys rather than the *live* keys.  Using the live keys should just result in all the tests failing but I'm not sure as I have not tried it yet.
+The tests  that rely on your secret **test** API keys to run successfully.  Be sure to check that you are using the **test** keys rather than the **live** keys.  Using the live keys should just result in all the tests failing but I'm not sure as I have not tried it yet.
 
 Follow the basic instructions above then
 
