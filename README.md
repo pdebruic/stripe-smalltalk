@@ -1,7 +1,7 @@
 #stripe-smalltalk
 
 
-Smalltalk implementation of the Stripe API. You need a free account from [Stripe](http://www.stripe.com) to get the API keys. Their API docs are very thorough and located [here](https://stripe.com/docs/api)
+Smalltalk implementation of the Stripe API. You need a free account from [Stripe](http://www.stripe.com) to get the API keys. Their API docs are very thorough and located [here](https://stripe.com/docs/api). I think you can access all aspects of their API from this package.  Let me know if you find something that's not included and we can work to get it sorted out. 
 
 
 ###SSL support
