@@ -3,15 +3,22 @@ stripe-smalltalk
 
 Smalltalk implementation of the Stripe API. You need a free account from [Stripe](http://www.stripe.com) to get the API keys. 
 
+
 SSL support
 -----------
 To interact with the Stripe servers you must connect to them using HTTPS.  The [SqueakSSLPlugin](https://code.google.com/p/squeakssl/) works in Squeak and Pharo.  But I wrote the http client behavoirs using [Zinc](http://zn.stfx.eu/zn/index.html) (Zinc uses [Zodiac](http://zdc.stfx.eu/) for ssl) which may or may not work in Squeak. If not it shouldn't be too hard to abstract out the Zinc parts and put [WebClient](http://www.squeaksource.com/WebClient.html) in its place. 
 
-I think that on Gemstone you're options are to proxy the HTTPS client traffic through nginx or apache or to use an stunnel. Sean Allen has a description of [how to use nginx as an https client](http://www.monkeysnatchbanana.com/posts/2010/06/22/faking-a-https-client-for-glass.html).  The Zinc port for Gemstone that I started and Dale Henrichs has been improving is [here](https://github.com/glassdb/zinc) and should work fine.
+I think that on Gemstone your options are to proxy the HTTPS client traffic through nginx or apache or to use an stunnel. Sean Allen has a description of [how to use nginx as an https client](http://www.monkeysnatchbanana.com/posts/2010/06/22/faking-a-https-client-for-glass.html).  The Zinc port for Gemstone that I started and Dale Henrichs has been improving is [here](https://github.com/glassdb/zinc) and should work fine.
 
 Supported Smalltalks
 --------------------
 So far its only been tested and known to work on Pharo 1.3.  I plan to test on Squeak, Gemstone 2.4, and Pharo 1.4 but haven't yet.  I don't think there is anything preventing it from working right now on those untested platforms I just haven't loaded it up and tried yet
+
+
+Installation using SqueakSource packages
+===================================
+I'm trying to use Stripe.com on Pharo and Gemstone I'm going to attempt to use github and follow a branch-per-platform model. The SqueakSource installation instructions use Metacello to load the Stripe packages from SqueakSource not from github.
+
 
 
 Basic Installation
@@ -52,3 +59,44 @@ The package 'Stripe-Tests' provides tests that rely on your secret test API keys
                 load. 
 
         (Smalltalk at: #ConfigurationOfStripe) project stableVersion load:#('Tests')`
+        
+Installation using Github packages
+===============================
+You have to install the [FileTree](https://github.com/dalehenrich/filetree) Monticello extension which allows Monticello to read/write git repositories.  Then clone this repository into a local directory on your filesystem.  Then load the packages from the git repo on your system into your image.  Currently there isn't Metacello support for FileTree repositories and so you have to load the dependencies by hand.  But Dale is working on it.
+
+Basic Installation
+------------------
+
+1. Load JSON.
+
+        `Gofer new
+                squeaksource:'JSON';
+                package:'JSON';
+                load.`
+
+2. Load Zinc.
+
+        `Gofer new
+                squeaksource:'ZincHTTPComponents';
+                package:'ConfigurationOfZincHTTPComponents';
+                load.'
+        (Smalltalk at: #ConfigurationOfZincHTTPComponents') load.`
+
+3. Load Stripe core package
+
+        #Clone from github:
+
+        git clone https://github.com/pdebruic/stripe-smalltalk.git
+        
+        #Load from the git repo:
+        
+        Gofer new
+                repository: (MCFileTreeRepository new directory: 
+                                (FileDirectory on: '/path/to/your/stripe/git/repository/'));
+                package: 'Stripe';
+                load.
+
+4. Set the API keys in the class side of StripeObject to your API keys.
+
+Seaside Example
+==================
