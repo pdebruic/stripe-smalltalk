@@ -86,21 +86,19 @@ Basic Installation
                 load.'
         (Smalltalk at: #ConfigurationOfZincHTTPComponents') load.`
         
-1. Load FileTree by following the instructions for your platform [here]((https://github.com/dalehenrich/filetree))
+1. Load FileTree by following the instructions for your platform [here]((https://github.com/dalehenrich/filetree)
 
-3. Load Stripe core package
+1. Clone this git repository in your filesystem somewhere reachable from your Smalltalk image
 
-        #Clone from github into a local directory in your file system:
+        `git clone https://github.com/pdebruic/stripe-smalltalk.git`
 
-        git clone https://github.com/pdebruic/stripe-smalltalk.git
+3. Load Stripe core package from the git repo you just created
         
-        #Load from the git repo you just created into your image:
-        
-        Gofer new
+        `Gofer new
                 repository: (MCFileTreeRepository new directory: 
                                 (FileDirectory on: '/path/to/your/stripe/git/repository/'));
                 package: 'Stripe';
-                load.
+                load.`
 
 4. Set the API keys in the class side of StripeObject to your API keys.
 
