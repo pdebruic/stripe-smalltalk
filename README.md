@@ -14,6 +14,10 @@ Supported Smalltalks
 --------------------
 So far its only been tested and known to work on Pharo 1.3.  I plan to test on Squeak, Gemstone 2.4, and Pharo 1.4 but haven't yet.  I don't think there is anything preventing it from working right now on those untested platforms I just haven't loaded it up and tried yet
 
+WebHooks
+----------
+You can receive Stripe WebHooks if you start the server mentioned in the class side of StripeSystem and create a way for the Stripe servers to reach your image.  See the class comment for StripeSystem for ideas.   The events will be stored in the image as instances of StripeEvent for you to use or log to a file or database for other purposes.  I'm using the [Toothpick](http://www.metaprog.com/Toothpick/index.html) logging framework to put them in Riak.  
+
 
 Installation using SqueakSource packages
 ===================================
@@ -51,7 +55,7 @@ It can be loaded by running
 
 Tests
 ---------------
-The package 'Stripe-Tests' provides tests that rely on your secret test API keys to run successfully.  
+The package 'Stripe-Tests' provides tests that rely on your secret *test* API keys to run successfully.  Be sure to check that you are using the *test* keys rather than the *live* keys.  Using the live keys should just result in all the tests failing but I'm not sure as I have not tried it yet.
 
         `Gofer new
                 squeaksource: 'Stripe';
@@ -122,7 +126,9 @@ Follow the basic instructions above then:
                 
 Tests
 --------------------
-The tests require you to use your secret test API keys for them to run successfully. Follow the basic instructions above then
+The tests  that rely on your secret *test* API keys to run successfully.  Be sure to check that you are using the *test* keys rather than the *live* keys.  Using the live keys should just result in all the tests failing but I'm not sure as I have not tried it yet.
+
+Follow the basic instructions above then
 
 1. Load the 'Stripe-Tests' package from your local copy of this git repository:
 
