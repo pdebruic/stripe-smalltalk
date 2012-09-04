@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "PaulDeBruicker 6/1/2012 17:26",
+	"super" : "Object",
+	"category" : "Stripe-Core",
+	"classinstvars" : [
+		"default",
+		"webhookServer",
+		"deployed"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"StripeObjectDictionary"
+	],
+	"instvars" : [
+		"root"
+	],
+	"name" : "StripeSystem",
+	"type" : "normal"
+}

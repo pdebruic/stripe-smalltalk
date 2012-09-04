@@ -1,0 +1,3 @@
+keys
+publishableApiKey
+	^ self testPublishableAPIKey
