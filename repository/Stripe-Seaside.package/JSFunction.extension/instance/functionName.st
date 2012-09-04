@@ -1,5 +1,5 @@
 *stripe-seaside
 functionName
-	^ functionNamed isNil
+	^ functionName isNil
 		ifTrue: [ 'function (' ]
-		ifFalse: [ 'function ' , functionNamed , '(' ]
+		ifFalse: [ 'function ' , functionName , '(' ]

@@ -1,3 +1,3 @@
 javascript
 stopReturn
-	^ JSStream on: 'return false'
+	^ JSStream on: 'return false;'

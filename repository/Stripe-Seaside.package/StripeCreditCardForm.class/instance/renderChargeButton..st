@@ -1,9 +1,4 @@
 rendering
 renderChargeButton: html
-	html submitButton
-		onClick:
-				(html jQuery
-						script: [ :s | 
-							s << self createStripeTokenForSimpleForm.
-							s << (JSStream on: 'createStripeToken()') ]);
-		with: 'Submit Payment'
+	html submitButton with: 'Submit Payment'.
+	html script: ((html jQuery id: 'payment-form') onSubmit: self createStripeTokenForSimpleForm)

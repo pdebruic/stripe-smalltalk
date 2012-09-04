@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"renderPlainForm:" : "PaulDeBruicker 8/28/2012 10:02",
+		"initialize" : "PaulDeBruicker 8/28/2012 09:39",
+		"renderContentOn:" : "PaulDeBruicker 8/28/2012 10:36",
+		"renderExampleData:" : "PaulDeBruicker 8/28/2012 10:35",
+		"renderIFrame:" : "PaulDeBruicker 8/28/2012 10:02",
+		"children" : "PaulDeBruicker 8/28/2012 09:39"
+	},
+	"class" : {
+		"createFunctionNameInJSFunction" : "PaulDeBruicker 8/28/2012 09:42",
+		"initialize" : "PaulDeBruicker 8/28/2012 09:37",
+		"canBeRoot" : "PaulDeBruicker 8/28/2012 09:37"
+	}
+}
