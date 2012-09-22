@@ -1,3 +1,3 @@
 accessing
-address_state: anObject
+addressState: anObject
 	self setValue: 'address_state' to: anObject

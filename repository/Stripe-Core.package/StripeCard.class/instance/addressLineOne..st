@@ -1,3 +1,3 @@
 accessing
-address_line1: anObject
+addressLineOne: anObject
 	self setValue: 'address_line1' to: anObject

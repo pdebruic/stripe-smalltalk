@@ -1,3 +1,3 @@
 accessing
-address_zip: anObject
+addressZip: anObject
 	self setValue: 'address_zip' to: anObject
