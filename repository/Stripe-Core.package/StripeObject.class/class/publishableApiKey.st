@@ -1,3 +1,3 @@
-keys
+strip configuration
 publishableApiKey
-	^ self testPublishableAPIKey
+	^ PublishableApiKey

@@ -4,7 +4,7 @@ charge: anAmount to: aCard with: aDescription
 	dict := Dictionary new.
 	dict at: 'amount' put: anAmount asString.	"amount must be in pennies e.g. 99 equals $0.99"
 	dict at: 'description' put: (description := aDescription).
-	dict at: 'currency' put: 'usd'.	"they only support USD right now`"
+	dict at: 'currency' put: self class billingCurrency.
 	dict at: 'card[number]' put: aCard number.
 	dict at: 'card[cvc]' put: aCard cvc.
 	dict at: 'card[exp_month]' put: aCard expirationMonth.

@@ -1,3 +1,3 @@
-keys
+strip configuration
 secretApiKey
-	^ self testSecretApiKey
+	^ SecretApiKey

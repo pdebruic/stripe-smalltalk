@@ -1,0 +1,3 @@
+strip configuration
+defaultBillingCurrency
+	^ 'usd'

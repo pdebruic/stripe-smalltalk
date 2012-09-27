@@ -2,8 +2,9 @@ as yet unclassified
 charge: anAmount to: aCard
 	| dict charge |
 	dict := Dictionary new.
-	dict at: 'amount' put: anAmount.	"amount must be in pennies e.g. 99 equals $0.99"
-	dict at: 'currency' put: 'usd'.	"they only support USD right now`"
+	"amount is deprecated, only some accounts create earlier can still use it here"
+	"dict at: 'amount' put: anAmount."
+	dict at: 'currency' put: self class billingCurrency.
 	dict at: 'card[number]' put: aCard number.
 	dict at: 'card[cvc]' put: aCard cvc.
 	dict at: 'card[exp_month]' put: aCard expirationMonth.

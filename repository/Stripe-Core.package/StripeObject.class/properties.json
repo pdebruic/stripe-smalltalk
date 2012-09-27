@@ -4,7 +4,11 @@
 	"category" : "Stripe-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"BillingCurrency",
+		"PublishableApiKey",
+		"SecretApiKey"
+	],
 	"instvars" : [
 		"id",
 		"created",
