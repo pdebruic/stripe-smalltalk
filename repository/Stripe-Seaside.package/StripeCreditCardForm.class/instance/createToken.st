@@ -1,3 +1,3 @@
 javascript
 createToken
-	^ JSStream on: 'Stripe.createToken(' , self createTokenData , ', amount , ' , self responseHandlerFunctionName , ')'
+	^ JSStream on: 'Stripe.createToken(' , self createTokenData , ', ' , self responseHandlerFunctionName , ')'
