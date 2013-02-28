@@ -14,4 +14,4 @@ testCreateCustomer
 	self assert: cust coupon id equals: '10_pct'.
 	self assert: cust plan id equals: 'small'.
 	self assert: cust description equals: 'my name'.
-	self assert: cust trial_end equals: (DateAndTime today + 30 days) asUnixTime	"StripeCustomer instances remove: cust ifAbsent:[] ."
+	self assert: cust trialEnd equals: (DateAndTime today + 30 days) asUnixTime	"StripeCustomer instances remove: cust ifAbsent:[] ."
