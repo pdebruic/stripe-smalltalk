@@ -1,3 +1,3 @@
 accessing
 expirationMonth
-	^ self valueFor: #expirationMonth
+	^ self valueFor: #exp_month

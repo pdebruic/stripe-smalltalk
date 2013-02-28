@@ -1,3 +1,3 @@
 accessing
 addressCountry: anObject
-	self setValue: 'address_country' to: anObject
+	self setValue: 'addressCountry' to: anObject

@@ -1,3 +1,3 @@
 accessing
 trialEnd
-	^ self valueFor: #trialEnd
+	^ self valueFor: #trial_end
