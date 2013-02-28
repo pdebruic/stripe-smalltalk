@@ -6,17 +6,18 @@ renderAddressRow: html
 					html label
 						for: self addressOneDiv;
 						with: 'Billing Street Address:'.
-					html break.
-					html textInput
-						name: nil;
-						id: self addressOneDiv;
-						size: 20.
-					html break.
+					html
+						div: [ 
+							html textInput
+								name: nil;
+								id: self addressOneDiv;
+								size: 20 ].
 					html label
 						for: self addressOneDiv;
 						with: 'Zip Code:'.
-					html break.
-					html textInput
-						name: nil;
-						id: self zipDiv;
-						size: 6 ]
+					html
+						div: [ 
+							html textInput
+								name: nil;
+								id: self zipDiv;
+								size: 6 ] ]
