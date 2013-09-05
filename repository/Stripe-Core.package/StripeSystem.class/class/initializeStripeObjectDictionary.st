@@ -1,7 +1,6 @@
 as yet unclassified
 initializeStripeObjectDictionary
-	StripeObjectDictionary := Dictionary new.
-	StripeObjectDictionary at: 'charge' put: StripeCharge.
+	"StripeObjectDictionary at: 'charge' put: StripeCharge.
 	StripeObjectDictionary at: 'customer' put: StripeCustomer.
 	StripeObjectDictionary at: 'invoicetiem' put: StripeInvoiceItem.
 	StripeObjectDictionary at: 'invoice' put: StripeInvoice.
@@ -13,4 +12,7 @@ initializeStripeObjectDictionary
 	StripeObjectDictionary at: 'token' put: StripeToken.
 	StripeObjectDictionary at: 'object' put: StripeObject.
 	StripeObjectDictionary at: 'event' put: StripeEvent.
-	StripeObjectDictionary at: 'transfer' put: StripeTransfer
+	StripeObjectDictionary at: 'transfer' put: StripeTransfer"
+
+	StripeObjectDictionary := Dictionary new.
+	StripeObject withAllSubclasses do: [ :each | StripeObjectDictionary at: each object put: each ]

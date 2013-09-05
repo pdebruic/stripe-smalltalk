@@ -16,7 +16,8 @@
 		"apiKey",
 		"values",
 		"unsavedValues",
-		"transientValues"
+		"transientValues",
+		"expanded"
 	],
 	"name" : "StripeObject",
 	"type" : "normal"

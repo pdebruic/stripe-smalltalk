@@ -1,4 +1,4 @@
-retrieving
+as yet unclassified
 httpClient
 	| client |
 	client := ZnClient new username: self class secretApiKey password: ''.

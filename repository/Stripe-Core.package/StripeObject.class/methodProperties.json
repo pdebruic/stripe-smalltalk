@@ -2,21 +2,25 @@
 	"instance" : {
 		"isATestObject" : "PaulDeBruicker 6/1/2012 17:11",
 		"httpClient" : "PaulDeBruicker 5/15/2012 12:23",
+		"expanded" : "PaulDeBruicker 9/5/2013 11:46",
 		"initialize" : "pad 09/05/2013 12:38",
 		"asJson" : "PaulDeBruicker 6/1/2012 17:07",
 		"hasAnId" : "PaulDeBruicker 6/1/2012 17:07",
 		"values" : "PaulDeBruicker 6/1/2012 17:07",
 		"parseStripeResponse:" : "PaulDeBruicker 6/4/2012 12:38",
+		"expanded:" : "PaulDeBruicker 9/5/2013 11:47",
 		"from:using:" : "PaulDeBruicker 6/1/2012 17:07",
 		"createWith:" : "PaulDeBruicker 2/22/2013 17:09",
+		"canExpand" : "PaulDeBruicker 9/5/2013 11:46",
+		"object" : "PaulDeBruicker 9/5/2013 13:14",
 		"retrieveFromStripe" : "PaulDeBruicker 5/15/2012 12:28",
 		"deleteUrl" : "PaulDeBruicker 6/1/2012 17:07",
 		"valueFor:" : "PaulDeBruicker 5/16/2012 09:27",
 		"livemode" : "PaulDeBruicker 6/1/2012 17:07",
-		"retrievalUrl" : "PaulDeBruicker 6/1/2012 17:07",
-		"id:" : "PaulDeBruicker 5/16/2012 11:37",
 		"deleteFromStripe" : "PaulDeBruicker 5/15/2012 12:26",
+		"id:" : "PaulDeBruicker 5/16/2012 11:37",
 		"refreshFrom:with:partially:" : "PaulDeBruicker 6/1/2012 17:07",
+		"retrievalUrl" : "PaulDeBruicker 6/1/2012 17:07",
 		"refreshFrom:with:" : "PaulDeBruicker 6/1/2012 17:07",
 		"setValue:to:" : "PaulDeBruicker 5/16/2012 09:32",
 		"id" : "PaulDeBruicker 6/1/2012 17:07",
@@ -43,6 +47,7 @@
 		"instances" : "PaulDeBruicker 10/24/2011 18:00",
 		"classUrlComponent" : "PaulDeBruicker 6/1/2012 17:07",
 		"defaultBillingCurrency" : "YanniChiu 9/27/2012 20:49",
-		"secretApiKey" : "YanniChiu 9/27/2012 01:01"
+		"secretApiKey" : "YanniChiu 9/27/2012 01:01",
+		"object" : "PaulDeBruicker 9/5/2013 13:20"
 	}
 }
