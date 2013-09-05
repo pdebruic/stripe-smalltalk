@@ -2,8 +2,8 @@ as yet unclassified
 setUp
 	card := StripeCard new
 		number: '4242424242424242';
-		expirationMonth: Date today month next index asString;
-		expirationYear: (Date today year + 1) asString;
+		expirationMonth: Month current next index asString;
+		expirationYear: Year current next year asString;
 		cvc: '123';
 		addressLineOne: '123 Main St';
 		addressZip: '10101'.

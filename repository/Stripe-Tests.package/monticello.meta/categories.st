@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Stripe-Tests'!
+SystemOrganization addCategory: 'Stripe-Tests'!
