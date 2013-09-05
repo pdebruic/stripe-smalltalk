@@ -1,3 +1,3 @@
 accessing
 addressZip
-	^ self valueFor: #addressZip
+	^ self valueFor: 'address_zip'

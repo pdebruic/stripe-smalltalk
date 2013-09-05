@@ -1,3 +1,3 @@
 accessing
 addressLineTwo
-	^ self valueFor: #addressLineTwo
+	^ self valueFor: 'address_line2'

@@ -1,5 +1,5 @@
 as yet unclassified
 initialize
-	values := Dictionary new.
+	values :=JsonObject new.
 	unsavedValues := Set new.
 	transientValues := Set new

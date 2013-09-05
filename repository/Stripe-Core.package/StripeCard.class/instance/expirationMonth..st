@@ -1,3 +1,3 @@
 accessing
 expirationMonth: anObject
-	self setValue: 'expirationMonth' to: anObject
+	self setValue: 'exp_month' to: anObject

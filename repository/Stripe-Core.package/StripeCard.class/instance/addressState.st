@@ -1,3 +1,3 @@
 accessing
 addressState
-	^ self valueFor: #addressState
+	^ self valueFor: 'address_state'
