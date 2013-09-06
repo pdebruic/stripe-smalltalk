@@ -1,7 +1,7 @@
-as yet unclassified
+retrieve
 retrieveWithId: anId
 	| response client parsed |
-	client := ZnClient new logToTranscript.
+	client := self httpAPIClientClass new.
 	client username: self secretApiKey password: ''.
 	client url: self url , '/' , anId.
 	response := client get.

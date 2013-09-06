@@ -1,10 +1,11 @@
 as yet unclassified
 refund: anAmount
-	| response |
+	| response formData |
+	formData:=Dictionary new.
+	formData at:'amount' put: anAmount asString .
 	response := self httpClient
-		formAt: 'amount' put: anAmount asString;
-		url: self refundUrl;
-		post.
+		post: self refundUrl formData: formData .
+		
 	self
 		handleResponse: response
 		andIfSuccessful: [ :parsedResponse | self refreshFrom: parsedResponse with: self class secretApiKey ]

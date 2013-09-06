@@ -7,17 +7,14 @@
 	"class" : {
 		"default" : "PaulDeBruicker 6/1/2012 17:22",
 		"deploy" : "PaulDeBruicker 8/28/2012 10:27",
-		"handleRequest:" : "PaulDeBruicker 6/4/2012 13:07",
 		"instancesOf:" : "PaulDeBruicker 10/24/2011 18:00",
 		"convert:toStripeObjectUsing:" : "PaulDeBruicker 6/1/2012 17:07",
-		"stopWebhookServerOn:" : "PaulDeBruicker 5/16/2012 10:08",
 		"webhookServer:" : "PaulDeBruicker 6/1/2012 17:07",
 		"initialize" : "PaulDeBruicker 8/28/2012 10:26",
 		"objectsToIds:" : "PaulDeBruicker 6/1/2012 17:07",
-		"startSampleWebhookServer" : "PaulDeBruicker 5/16/2012 10:41",
-		"initializeStripeObjectDictionary" : "PaulDeBruicker 9/5/2013 13:31",
 		"logStripeClientToTranscript" : "PaulDeBruicker 6/1/2012 17:07",
-		"startWebhookServerOn:" : "PaulDeBruicker 5/16/2012 09:51",
+		"initializeStripeObjectDictionary" : "PaulDeBruicker 9/5/2013 13:31",
+		"startSampleWebhookServer" : "PaulDeBruicker 5/16/2012 10:41",
 		"symbolizeNames:" : "PaulDeBruicker 10/24/2011 15:16",
 		"webhookServer" : "PaulDeBruicker 6/1/2012 17:07"
 	}

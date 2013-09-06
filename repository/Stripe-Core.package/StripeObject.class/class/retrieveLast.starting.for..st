@@ -1,7 +1,7 @@
 retrieve
 retrieveLast: aCount starting: anOffset for: aCustomer
 	| response client parsed |
-	client := ZnClient new logToTranscript.
+	client := self httpAPIClientClass new.
 	client username: self secretApiKey password: ''.
 	client url: self url.
 	client queryAt: 'count' put: aCount asString.
