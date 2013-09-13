@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Stripe-Seaside'!
+SystemOrganization addCategory: 'Stripe-Seaside'!
