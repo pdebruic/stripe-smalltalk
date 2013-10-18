@@ -1,3 +1,0 @@
-accessing
-webhookServer: aZnManagingMultiThreadedServer
-	webhookServer := aZnManagingMultiThreadedServer

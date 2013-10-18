@@ -4,7 +4,6 @@
 	"category" : "Stripe-Core",
 	"classinstvars" : [
 		"default",
-		"webhookServer",
 		"deployed"
 	],
 	"pools" : [ ],

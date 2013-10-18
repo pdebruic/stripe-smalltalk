@@ -1,3 +1,3 @@
 webhooks
 startSampleWebhookServer
-	self startWebhookServerOn: 8182
+	self startWebhookServerOn: self samplePort
