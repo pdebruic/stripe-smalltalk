@@ -3,8 +3,8 @@ getUpcomingInvoice
 	| response |
 	response := self httpClient
 		url: StripeInvoice url;
-		queryAt: 'customer' put: self id;
 		addToPath: 'upcoming';
+		queryAt: 'customer' put: self id;
 		get.
 	self
 		handleResponse: response

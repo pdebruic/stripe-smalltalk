@@ -1,7 +1,7 @@
 as yet unclassified
 createWith: aDictionary
 	| response |
-	response := self httpClient postFormData: aDictionary.
+	response := self httpClient post: self class url formData: aDictionary.
 	self
 		handleResponse: response
 		andIfSuccessful: [ :parsedResponse | 

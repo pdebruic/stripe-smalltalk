@@ -1,5 +1,7 @@
 deleting
 deleteFromStripe
 	| response |
-	response := self httpClient delete: self url.
+	response := self httpClient
+		url: self url;
+		delete.
 	self handleResponse: response andIfSuccessful: [ :parsedResponse | ^ parsedResponse at: 'deleted' ]
