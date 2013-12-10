@@ -1,5 +1,12 @@
 {
-	"instance" : { },
+	"instance" : {
+		"removeAllSuchThat:" : "PaulDeBruicker 12/10/2013 15:00",
+		"collect:" : "PaulDeBruicker 12/10/2013 15:26",
+		"reject:" : "PaulDeBruicker 12/10/2013 15:26",
+		"detect:ifNone:" : "PaulDeBruicker 12/10/2013 15:15",
+		"select:" : "PaulDeBruicker 12/10/2013 15:26",
+		"data" : "PaulDeBruicker 12/10/2013 15:18"
+	},
 	"class" : {
 		"object" : "PaulDeBruicker 9/5/2013 13:17"
 	}

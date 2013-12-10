@@ -1,6 +1,8 @@
 {
 	"instance" : { },
 	"class" : {
-		"object" : "PaulDeBruicker 9/5/2013 13:12"
+		"object" : "PaulDeBruicker 9/5/2013 13:12",
+		"classUrlComponent" : "PaulDeBruicker 12/10/2013 16:10",
+		"newTransferTo:for:" : "PaulDeBruicker 12/10/2013 16:12"
 	}
 }

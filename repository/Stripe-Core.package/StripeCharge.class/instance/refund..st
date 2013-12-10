@@ -1,7 +1,7 @@
 as yet unclassified
 refund: anAmount
 	| response formData |
-	formData:=Dictionary new.
+	formData:=JsonObject new.
 	formData at:'amount' put: anAmount asString .
 	response := self httpClient
 		post: self refundUrl formData: formData .

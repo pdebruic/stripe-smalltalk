@@ -3,7 +3,7 @@ symbolizeNames: anObject
 	| returnValue |
 	anObject isDictionary
 		ifTrue: [ 
-			returnValue := Dictionary new.
+			returnValue := JsonObject new.
 			anObject keysAndValuesDo: [ :key :val | returnValue at: key asSymbol put: (self symbolizeNames: val) ] ]
 		ifFalse: [ 
 			anObject isCollection

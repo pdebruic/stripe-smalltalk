@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "StripeObject",
+	"category" : "Stripe-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "StripeBalance",
+	"type" : "normal"
+}

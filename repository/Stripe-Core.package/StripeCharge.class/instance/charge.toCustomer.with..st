@@ -1,7 +1,9 @@
 as yet unclassified
 charge: anAmount toCustomer: aCustomer with: aDescription
 	| dict charge |
-	dict := Dictionary new.
+	dict := JsonObject new.
+	anAmount asNumber < 50
+		ifTrue: [ StripeError signal: 'minimum charge is 50 cents' ].
 	dict at: 'amount' put: anAmount.	"amount must be in pennies e.g. 99 equals $0.99"
 	dict at: 'customer' put: aCustomer id.
 	dict at: 'description' put: (description := aDescription).

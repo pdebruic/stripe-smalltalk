@@ -1,13 +1,14 @@
 {
 	"instance" : {
 		"type" : "PaulDeBruicker 5/16/2012 11:37",
-		"refreshFrom:with:partially:" : "PaulDeBruicker 5/16/2012 11:34",
+		"refreshFrom:with:partially:" : "PaulDeBruicker 12/10/2013 13:53",
 		"printOn:" : "PaulDeBruicker 5/16/2012 11:37"
 	},
 	"class" : {
+		"eventTypes" : "PaulDeBruicker 12/10/2013 16:36",
+		"retrieveLast:starting:ofType:" : "PaulDeBruicker 9/6/2013 10:59",
 		"object" : "PaulDeBruicker 9/5/2013 13:13",
 		"classUrlComponent" : "PaulDeBruicker 5/16/2012 09:39",
-		"retrieveLast:starting:ofType:" : "PaulDeBruicker 9/6/2013 10:59",
 		"newWithEventDetailsFromStripeFor:" : "PaulDeBruicker 6/1/2012 17:09"
 	}
 }

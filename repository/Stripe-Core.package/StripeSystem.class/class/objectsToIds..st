@@ -3,7 +3,7 @@ objectsToIds: aCollectionOrObject
 	| returnValue |
 	aCollectionOrObject isDictionary
 		ifTrue: [ 
-			returnValue := Dictionary new.
+			returnValue := JsonObject new.
 			aCollectionOrObject keysAndValuesDo: [ :key :val | returnValue at: key put: (self objectsToIds: val) ] ]
 		ifFalse: [ 
 			returnValue := (aCollectionOrObject isCollection and: [ aCollectionOrObject isString not ])
