@@ -1,11 +1,11 @@
 as yet unclassified
 planForTests
-	| dict |
-	dict := Dictionary new.
-	dict at: 'id' put: 'small'.
-	dict at: 'amount' put: '1000'.
-	dict at: 'currency' put: 'usd'.
-	dict at: 'interval' put: 'month'.
-	dict at: 'name' put: 'Small Plan'.
-	dict at: 'trial_period_days' put: '30'.
-	^ StripePlan newFrom: dict
+	| formData |
+	formData := JsonObject new.
+	formData at: 'id' put: 'small'.
+	formData at: 'amount' put: '1000'.
+	formData at: 'currency' put: 'usd'.
+	formData at: 'interval' put: 'month'.
+	formData at: 'name' put: 'Small Plan'.
+	formData at: 'trial_period_days' put: '30'.
+	^ StripePlan newFrom: formData
