@@ -5,7 +5,7 @@ retrieveWithId: anId
 	client username: self secretApiKey password: ''.
 	client url: self url , '/' , anId.
 	response := client get.
-	parsed := Json readFrom: response asString readStream.
+	parsed := StripeSystem parseStripeResponse: response.
 	parsed
 		at: 'error'
 		ifPresent: [ :v | ^ nil ]

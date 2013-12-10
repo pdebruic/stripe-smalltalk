@@ -5,8 +5,6 @@ getCurrentPlans
 	client username: self secretApiKey password: ''.
 	client url: self url.
 	response := client get.
-	parsed := Json readFrom: response asString readStream.
-	parsed
-		at: 'error'
-		ifPresent: [ :v | ^ nil ]
-		ifAbsent: [ ^ StripeSystem convert: parsed toStripeObjectUsing: self secretApiKey ]
+	StripeSystem
+		handleResponse: response
+		andIfSuccessful: [ :parsedResponse | ^ StripeSystem convert: parsedResponse toStripeObjectUsing: self secretApiKey ]
