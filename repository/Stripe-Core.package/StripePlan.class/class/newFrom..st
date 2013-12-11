@@ -8,4 +8,4 @@ you can't create more than one of the same plan, so we check to see if the one y
 	existingPlan := self getCurrentPlans
 		detect: [ :each | each name = (formData at: 'name') ]
 		ifNone: [ ^ self new createWith: formData ].
-	StripeError signal: 'You already have a plan named ' , existingPlan name
+	^existingPlan

@@ -1,6 +1,8 @@
 {
 	"instance" : {
 		"captureUrl" : "PaulDeBruicker 12/10/2013 14:32",
+		"card" : "PaulDeBruicker 12/11/2013 10:41",
+		"refund" : "PaulDeBruicker 12/11/2013 10:49",
 		"refundUrl" : "PaulDeBruicker 9/6/2013 10:53",
 		"capture" : "PaulDeBruicker 12/10/2013 14:32",
 		"closeDispute:" : "PaulDeBruicker 12/10/2013 16:20",
@@ -8,8 +10,8 @@
 		"updateMetadata:" : "PaulDeBruicker 12/10/2013 14:41",
 		"updateDispute:" : "PaulDeBruicker 12/10/2013 16:18",
 		"charge:toCustomer:with:" : "PaulDeBruicker 12/10/2013 14:18",
-		"refund:" : "PaulDeBruicker 12/10/2013 14:18",
 		"charge:to:with:" : "PaulDeBruicker 12/10/2013 14:18",
+		"refund:" : "PaulDeBruicker 12/11/2013 10:57",
 		"updateDescription:" : "PaulDeBruicker 12/10/2013 14:40"
 	},
 	"class" : {
