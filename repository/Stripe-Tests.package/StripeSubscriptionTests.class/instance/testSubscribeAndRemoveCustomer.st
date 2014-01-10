@@ -1,4 +1,4 @@
 as yet unclassified
 testSubscribeAndRemoveCustomer
-	customer updateSubscriptionTo: plan.
+	customer updateSubscriptionPlanTo: plan.
 	self assert: customer subscription plan equals: plan
