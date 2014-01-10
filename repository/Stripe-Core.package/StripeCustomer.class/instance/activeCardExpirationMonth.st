@@ -1,3 +1,3 @@
 cards
 activeCardExpirationMonth
-	^ self activeCard expirationMonth
+	^ self defaultCard expirationMonth

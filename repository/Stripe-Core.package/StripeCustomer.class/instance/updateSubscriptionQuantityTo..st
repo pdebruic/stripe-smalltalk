@@ -1,8 +1,8 @@
 subscriptions
-updateSubscriptionTo: aPlan
+updateSubscriptionQuantityTo: aNumber
 	| response dict |
 	dict := JsonObject new.
-	dict at: 'plan' put: aPlan id.
+	dict at: 'quantity' put: aNumber asString.
 	response := self httpClient post: self subscriptionUrl formData: dict.
 	self
 		handleResponse: response

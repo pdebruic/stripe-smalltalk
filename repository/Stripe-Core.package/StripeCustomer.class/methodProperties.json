@@ -1,22 +1,25 @@
 {
 	"instance" : {
 		"cancelSubscriptionAtEndOfCurrentPeriod" : "PaulDeBruicker 9/6/2013 10:56",
-		"updateSubscriptionTo:" : "PaulDeBruicker 12/10/2013 14:18",
 		"subscription" : "PaulDeBruicker 6/1/2012 17:07",
 		"coupon" : "PaulDeBruicker 6/1/2012 17:07",
-		"activeCardExpirationMonth" : "PaulDeBruicker 2/25/2013 11:20",
+		"activeCardExpirationMonth" : "PaulDeBruicker 12/13/2013 10:07",
+		"defaultCard" : "PaulDeBruicker 12/13/2013 10:07",
 		"subscriptionUrl" : "PaulDeBruicker 9/6/2013 10:25",
-		"activeCard" : "PaulDeBruicker 2/25/2013 11:19",
 		"trialEnd" : "PaulDeBruicker 9/22/2012 12:32",
+		"updateSubscriptionQuantityTo:" : "PaulDeBruicker 12/13/2013 10:37",
 		"plan" : "PaulDeBruicker 6/1/2012 17:07",
 		"getCard:" : "PaulDeBruicker 12/10/2013 14:51",
 		"cancelSubscriptionNow" : "PaulDeBruicker 5/15/2012 12:28",
 		"createFromToken:with:" : "PaulDeBruicker 12/10/2013 14:18",
+		"updateSubscriptionPlanTo:" : "PaulDeBruicker 12/13/2013 10:31",
+		"addCardUsingToken:" : "PaulDeBruicker 12/16/2013 14:01",
 		"description" : "PaulDeBruicker 6/1/2012 17:07",
 		"getUpcomingInvoice" : "PaulDeBruicker 12/10/2013 21:08",
 		"deleteCard:" : "PaulDeBruicker 12/10/2013 14:59",
 		"email" : "PaulDeBruicker 6/1/2012 17:07",
-		"addCard:" : "PaulDeBruicker 12/10/2013 14:54",
+		"hasSubscription" : "PaulDeBruicker 12/13/2013 10:25",
+		"addCard:" : "PaulDeBruicker 12/16/2013 14:01",
 		"changeDefaultCardTo:" : "PaulDeBruicker 12/10/2013 15:02",
 		"createFromCard:with:" : "PaulDeBruicker 12/10/2013 14:18",
 		"cardUrl" : "PaulDeBruicker 12/10/2013 14:52"
@@ -27,6 +30,7 @@
 		"newFromCard:" : "PaulDeBruicker 12/10/2013 14:48",
 		"object" : "PaulDeBruicker 9/5/2013 13:13",
 		"classUrlComponent" : "PaulDeBruicker 6/1/2012 17:07",
+		"newWithDescription:" : "PaulDeBruicker 12/13/2013 10:03",
 		"newFromCard:with:" : "PaulDeBruicker 12/10/2013 14:48"
 	}
 }
