@@ -8,8 +8,8 @@ refreshFrom: aResponse with: anApiKey partially: aBoolean
 			apiKey := anApiKey.
 			removedKeys := aBoolean
 				ifTrue: [ Set new ]
-				ifFalse: [ Set newFrom: (values keys difference: aResponse keys) ].
-			unsavedValues := Set newFrom: aResponse keys.
+				ifFalse: [ (values keys difference: aResponse keys) asSet ].
+			unsavedValues := aResponse keys asSet.
 			removedKeys
 				do: [ :each | 
 					values removeKey: each.
