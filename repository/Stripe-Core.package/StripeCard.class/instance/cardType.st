@@ -1,0 +1,3 @@
+accessing
+cardType
+	^self type
