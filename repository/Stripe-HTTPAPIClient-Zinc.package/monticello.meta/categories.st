@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Stripe-HTTPAPIClient-Zinc'!
+SystemOrganization addCategory: 'Stripe-HTTPAPIClient-Zinc'!
