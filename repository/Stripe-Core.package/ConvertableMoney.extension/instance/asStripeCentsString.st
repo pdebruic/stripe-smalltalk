@@ -1,3 +1,3 @@
 *stripe-core
 asStripeCentsString
-	^ self nearestCent asInteger asString
+  ^ (self amount * 100) floor asString
