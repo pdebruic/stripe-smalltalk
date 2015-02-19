@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Stripe-Core'!
+SystemOrganization addCategory: #'Stripe-Core'!
