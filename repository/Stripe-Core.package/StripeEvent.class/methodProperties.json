@@ -1,8 +1,9 @@
 {
 	"instance" : {
-		"type" : "PaulDeBruicker 5/16/2012 11:37",
+		"printOn:" : "PaulDeBruicker 5/16/2012 11:37",
 		"refreshFrom:with:partially:" : "PaulDeBruicker 09/06/2014 20:34",
-		"printOn:" : "PaulDeBruicker 5/16/2012 11:37"
+		"type" : "PaulDeBruicker 5/16/2012 11:37",
+		"isForCustomer" : "PaulDeBruicker 3/24/2016 19:12"
 	},
 	"class" : {
 		"eventTypes" : "PaulDeBruicker 12/10/2013 16:36",
