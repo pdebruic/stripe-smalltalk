@@ -1,0 +1,3 @@
+testing
+isAuthorized
+	^accessToken notNil

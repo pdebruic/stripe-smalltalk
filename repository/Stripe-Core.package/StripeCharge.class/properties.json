@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"amount",
+		"balanceTransaction"
+	],
 	"name" : "StripeCharge",
 	"type" : "normal"
 }

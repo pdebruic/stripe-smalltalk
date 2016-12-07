@@ -1,0 +1,30 @@
+{
+	"instance" : {
+		"isAuthorized" : "PaulDeBruicker 12/2/2016 02:54",
+		"customer:" : "PaulDeBruicker 12/2/2016 19:01",
+		"handleAuthenticationCallback:" : "PaulDeBruicker 12/2/2016 02:46",
+		"customer" : "PaulDeBruicker 12/2/2016 20:44",
+		"ensureStoredForLookup" : "PaulDeBruicker 12/2/2016 02:50",
+		"authenticationUrl" : "PaulDeBruicker 12/6/2016 06:08",
+		"liveSession" : "PaulDeBruicker 12/2/2016 01:44",
+		"userPublishableKey" : "PaulDeBruicker 12/4/2016 19:15",
+		"csrfPreventionState" : "PaulDeBruicker 12/1/2016 23:37",
+		"testSession" : "PaulDeBruicker 12/2/2016 01:44",
+		"redirectUrl:" : "PaulDeBruicker 12/1/2016 23:28",
+		"isLive" : "PaulDeBruicker 12/2/2016 02:55",
+		"consumerData" : "PaulDeBruicker 12/6/2016 05:40",
+		"isTest" : "PaulDeBruicker 12/2/2016 02:54",
+		"setConsumerData:" : "PaulDeBruicker 12/1/2016 23:46",
+		"stripeKey" : "PaulDeBruicker 12/2/2016 02:54",
+		"stripeId" : "PaulDeBruicker 12/2/2016 02:54"
+	},
+	"class" : {
+		"storageClass" : "PaulDeBruicker 12/2/2016 02:58",
+		"initialize" : "PaulDeBruicker 12/2/2016 00:01",
+		"lookupFromRequest:" : "PaulDeBruicker 12/2/2016 17:38",
+		"instances" : "PaulDeBruicker 12/2/2016 02:51",
+		"liveClientId:key:" : "PaulDeBruicker 12/6/2016 06:03",
+		"storeForLookup:" : "PaulDeBruicker 12/6/2016 05:34",
+		"testClientId:key:" : "PaulDeBruicker 12/6/2016 06:03"
+	}
+}

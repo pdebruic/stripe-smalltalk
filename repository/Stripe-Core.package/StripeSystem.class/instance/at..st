@@ -1,3 +1,3 @@
 as yet unclassified
-at: aString
-	^ self root at: aString ifAbsentPut: [ OrderedCollection new ]
+at: aClass
+	^ self root at: aClass name ifAbsentPut: [aClass storageClass new ]

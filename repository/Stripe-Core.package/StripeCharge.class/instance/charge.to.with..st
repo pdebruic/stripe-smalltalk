@@ -1,6 +1,6 @@
-as yet unclassified
+instance-creation
 charge: anAmount to: aCard with: aDescription
-	| dict charge |
+	| dict  |
 	dict := JsonObject new.
 	anAmount asNumber < 50
 		ifTrue: [ StripeError signal: 'minimum charge is 50 cents' ].

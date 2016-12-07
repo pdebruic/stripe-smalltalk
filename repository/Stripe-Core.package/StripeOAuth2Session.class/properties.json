@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "ZnOAuth2Session",
+	"category" : "Stripe-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Keys"
+	],
+	"instvars" : [
+		"csrfPreventionState",
+		"stripeUserId",
+		"liveMode",
+		"userPublishableKey",
+		"scope",
+		"customer"
+	],
+	"name" : "StripeOAuth2Session",
+	"type" : "normal"
+}
