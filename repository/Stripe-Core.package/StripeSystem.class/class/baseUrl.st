@@ -1,3 +1,3 @@
 urls
 baseUrl
-	^'https://api.stripe.com/v1/'
+  ^ 'http://stripe:8882/v1'

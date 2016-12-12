@@ -1,3 +1,5 @@
 as yet unclassified
 amountAsMoney
-	^ConvertableMoney amount: amount currency:'USD'
+  "Stripe stores everything in cents.  "
+
+  ^ ConvertableMoney amount: amount / 100 currencyCode: 'USD'
