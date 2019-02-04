@@ -2,18 +2,15 @@ baselines
 baseline: spec
 	"going to add stuff for squeak into this version"
 
-	<baseline >
+	<baseline>
 	spec
 		for: #common
-		do: [ 
-			spec postLoadDoIt: #startStripeExample.
+		do: [ spec postLoadDoIt: #startStripeExample.
 			spec
 				baseline: 'Seaside3'
 					with: [ spec
-						
 						loads: #('Base' 'JQuery-UI');
-						
-						repository: 'github://SeasideSt/Seaside:master/repository'];
+						repository: 'github://SeasideSt/Seaside:master/repository' ];
 				project: 'HTTP-API-Client'
 					with: [ spec
 						className: 'ConfigurationOfHTTPAPIClient';
@@ -35,8 +32,10 @@ baseline: spec
 			spec
 				package: 'Stripe-Core' with: [ spec requires: #('JSON') ];
 				package: 'Stripe-Tests' with: [ spec requires: #('Core') ];
-				package: 'Stripe-Money' with: [ spec requires: #('Core' 'Money') ];
-				package: 'Stripe-Seaside' with: [ spec requires: #('Seaside3' 'Core') ].
+				package: 'Stripe-Money'
+					with: [ spec requires: #('Core' 'Money') ];
+				package: 'Stripe-Seaside'
+					with: [ spec requires: #('Seaside3' 'Core') ].
 			spec
 				group: 'default' with: #('Core');
 				group: 'Tests' with: #('Core' 'Stripe-Tests');
@@ -50,11 +49,14 @@ baseline: spec
 		for: #squeak
 		do: [ spec
 				project: 'Seaside3'
-				with: [ spec loads: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'WebClient') ].
+				with: [ spec
+						loads: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'WebClient') ].
 			spec
 				package: 'Stripe-HTTPAPIClient-WebClient'
 				with: [ spec requires: #('Stripe-Core' 'HTTP-API-Client' 'SqueakSSL') ].
-			spec package: 'StripeSqueakExample' with: [ spec requires: #('Stripe-Seaside') ].
+			spec
+				package: 'StripeSqueakExample'
+				with: [ spec requires: #('Stripe-Seaside') ].
 			spec group: 'Seaside-Example' with: #('StripeSqueakExample').
 			spec group: 'Core' with: #('Stripe-HTTPAPIClient-WebClient') ].
 	spec
@@ -68,12 +70,18 @@ baseline: spec
 						versionString: #stable;
 						loads: #('Core' 'SSO');
 						repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
-			spec package: 'Stripe-Core' with: [ spec requires: #('ZincHTTPComponents') ].
-			spec package: 'Zodiac-Core' with: [ spec repository: 'http://mc.stfx.eu/Zodiac' ].
+			spec
+				package: 'Stripe-Core'
+				with: [ spec requires: #('ZincHTTPComponents') ].
+			spec
+				package: 'Zodiac-Core'
+				with: [ spec repository: 'http://mc.stfx.eu/Zodiac' ].
 			spec
 				package: 'Stripe-HTTPAPIClient-Zinc'
 				with: [ spec requires: #('Stripe-Core' 'HTTP-API-Client') ].
-			spec package: 'StripePharoExample' with: [ spec requires: #('Stripe-Seaside') ].
+			spec
+				package: 'StripePharoExample'
+				with: [ spec requires: #('Stripe-Seaside') ].
 			spec group: 'Seaside-Example' with: #('StripePharoExample').
 			spec
 				group: 'Core' with: #('Stripe-HTTPAPIClient-Zinc');
@@ -89,10 +97,14 @@ baseline: spec
 						versionString: #stable;
 						loads: #('SSO');
 						repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
-			spec package: 'Stripe-Core' with: [ spec requires: #('ZincHTTPComponents') ].
+			spec
+				package: 'Stripe-Core'
+				with: [ spec requires: #('ZincHTTPComponents') ].
 			spec
 				package: 'Stripe-HTTPAPIClient-Zinc'
 				with: [ spec requires: #('Stripe-Core' 'HTTP-API-Client') ].
-			spec package: 'StripeGemstoneExample' with: [ spec requires: #('Stripe-Seaside') ].
+			spec
+				package: 'StripeGemstoneExample'
+				with: [ spec requires: #('Stripe-Seaside') ].
 			spec group: 'Seaside-Example' with: #('StripeGemstoneExample').
 			spec group: 'Core' with: #('Stripe-HTTPAPIClient-Zinc') ]
