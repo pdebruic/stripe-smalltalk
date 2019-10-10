@@ -5,4 +5,4 @@ baselineGemStone: spec
 		do: [ spec
 				package: 'StripeGemstoneExample'
 				with: [ spec requires: #('Stripe-Seaside' 'Seaside3' 'Stripe-HTTPAPIClient-Zinc') ].
-			spec group: 'Seaside-Example' with: #('StripeGemstoneExample') ]
+			spec group: 'Seaside-Example' with: #('StripeGemstoneExample')]

@@ -25,11 +25,14 @@ baselineZinc: spec
 				with: [ spec repository: 'github://GsDevKit/zodiac:gs_master/repository' ] ].
 	spec
 		for: #(#pharo #gemstone)
-		do: [ spec baseline: 'Seaside3' with: [ spec loads: #('Zinc') ].
+		do: [ spec
+				baseline: 'Seaside3'
+				with: [ spec
+						loads: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Zinc') ].
 			spec
 				package: 'Stripe-Core'
 				with: [ spec requires: #('ZincHTTPComponents') ].
 			spec
 				package: 'Stripe-HTTPAPIClient-Zinc'
 				with: [ spec requires: #('Stripe-Core' 'HTTP-API-Client') ].
-			spec group: 'Core' with: #('Stripe-HTTPAPIClient-Zinc') ]
+			spec group: 'StripeClient' with: #('Stripe-HTTPAPIClient-Zinc') ]
