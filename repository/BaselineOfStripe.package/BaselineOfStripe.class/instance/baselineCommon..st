@@ -5,23 +5,26 @@ baselineCommon: spec
 		do: [ spec postLoadDoIt: #startStripeExample.
 			spec
 				baseline: 'Seaside3'
-					with: [ spec
+				with: [ spec
 						loads: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'Email');
-						repository: 'github://SeasideSt/Seaside:master/repository' ];
+						repository: 'github://SeasideSt/Seaside:master/repository' ].
+			spec
 				baseline: 'HTTP-API-Client'
-					with: [ spec
+				with: [ spec
 						className: 'BaselineOfHTTPAPIClient';
 						loads: 'Core';
-						repository: 'http://smalltalkhub.com/mc/pdebruic/HTTPAPIClient/main' ];
+						repository: 'http://smalltalkhub.com/mc/pdebruic/HTTPAPIClient/main' ].
+			spec
 				project: 'Money'
-					with: [ spec
+				with: [ spec
 						className: 'ConfigurationOfMoney';
 						loads: #('Core');
 						file: 'ConfigurationOfMoney';
 						versionString: #stable;
-						repository: 'http://www.smalltalkhub.com/mc/pdebruic/Money/main' ];
+						repository: 'http://www.smalltalkhub.com/mc/pdebruic/Money/main' ].
+			spec
 				project: 'JSON'
-					with: [ spec
+				with: [ spec
 						className: 'ConfigurationOfJSON';
 						versionString: #stable;
 						repository: 'http://smalltalkhub.com/mc/PharoExtras/JSON/main' ].
@@ -35,7 +38,7 @@ baselineCommon: spec
 			spec
 				group: 'default' with: #('Core');
 				group: 'Tests' with: #('Core' 'Stripe-Tests');
-				group: 'Dev' with: #('Stripe-Tests' 'Stripe-Seaside') ].
+				group: 'Dev' with: #('Tests' 'Seaside-Example') ].
 	spec
 		for: #squeakCommon
 		do: [ spec

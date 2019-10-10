@@ -4,6 +4,7 @@ baseline: spec
 
 	<baseline>
 	self baselineCommon: spec.
-	self baselineSqueak: spec.
+	self baselineZinc: spec.
 	self baselinePharo: spec.
-	self baselineGemStone: spec
+	self baselineGemStone: spec.
+	self baselineSqueak: spec

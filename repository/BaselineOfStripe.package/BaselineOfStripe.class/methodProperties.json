@@ -1,11 +1,12 @@
 {
 	"instance" : {
 		"baselineSqueak:" : "PaulDeBruicker 10/10/2019 10:09",
+		"baselineZinc:" : "PaulDeBruicker 10/10/2019 10:24",
 		"startStripeExample" : "PaulDeBruicker 2/4/2019 19:40",
-		"baselinePharo:" : "PaulDeBruicker 10/10/2019 10:09",
-		"baseline:" : "PaulDeBruicker 10/10/2019 10:08",
-		"baselineGemStone:" : "PaulDeBruicker 10/10/2019 10:09",
-		"baselineCommon:" : "PaulDeBruicker 10/10/2019 10:08"
+		"baselinePharo:" : "PaulDeBruicker 10/10/2019 10:28",
+		"baseline:" : "PaulDeBruicker 10/10/2019 10:29",
+		"baselineGemStone:" : "PaulDeBruicker 10/10/2019 10:28",
+		"baselineCommon:" : "PaulDeBruicker 10/10/2019 10:42"
 	},
 	"class" : { }
 }
