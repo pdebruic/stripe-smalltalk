@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'BaselineOfStripe'!
+SystemOrganization addCategory: #BaselineOfStripe!
