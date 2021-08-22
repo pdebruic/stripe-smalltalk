@@ -5,28 +5,17 @@ baselineCommon: spec
 		do: [ spec postLoadDoIt: #startStripeExample.
 			spec
 				baseline: 'Seaside3'
+				with: [ spec repository: 'github://SeasideSt/Seaside:master/repository' ].
+			spec
+				baseline: 'HTTPAPIClient'
 				with:
-					[ spec repository: 'github://SeasideSt/Seaside:master/repository' ].
+					[ spec repository: 'github://pdebruic/HTTPAPIClient/repository' ].
 			spec
-				baseline: 'HTTP-API-Client'
-				with: [ spec
-						className: 'BaselineOfHTTPAPIClient';
-						loads: 'Core';
-						repository: 'http://smalltalkhub.com/mc/pdebruic/HTTPAPIClient/main' ].
+				baseline: 'Money'
+				with: [ spec repository: 'github://pdebruic/Money/repository' ].
 			spec
-				project: 'Money'
-				with: [ spec
-						className: 'ConfigurationOfMoney';
-						loads: #('Core');
-						file: 'ConfigurationOfMoney';
-						versionString: #stable;
-						repository: 'http://www.smalltalkhub.com/mc/pdebruic/Money/main' ].
-			spec
-				project: 'JSON'
-				with: [ spec
-						className: 'ConfigurationOfJSON';
-						versionString: #stable;
-						repository: 'http://smalltalkhub.com/mc/PharoExtras/JSON/main' ].
+				baseline: 'JSON'
+				with: [ spec repository: 'github://pdebruic/JSON/repository' ].
 			spec
 				package: 'Stripe-Core' with: [ spec requires: #('JSON') ];
 				package: 'Stripe-Tests'
