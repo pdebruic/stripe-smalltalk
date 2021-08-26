@@ -5,7 +5,7 @@ baselineSqueak: spec
 		do: [ spec baseline: 'Seaside3' with: [ spec loads: #('Core' 'JSON' 'Email' 'Javascript' 'JQuery' 'JQueryUI' 'WebClient') ].
 			spec
 				package: 'Stripe-HTTPAPIClient-WebClient'
-				with: [ spec requires: #('Stripe-Core' 'HTTP-API-Client' 'SqueakSSL') ].
+				with: [ spec requires: #('Stripe-Core' 'HTTPAPIClient' 'SqueakSSL') ].
 			spec
 				package: 'StripeSqueakExample'
 				with: [ spec requires: #('Stripe-Seaside' 'Seaside3' 'StripeClient') ].
