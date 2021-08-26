@@ -34,5 +34,5 @@ baselineZinc: spec
 				with: [ spec requires: #('ZincHTTPComponents') ].
 			spec
 				package: 'Stripe-HTTPAPIClient-Zinc'
-				with: [ spec requires: #('Stripe-Core' 'HTTP-API-Client') ].
+				with: [ spec requires: #('Stripe-Core' 'HTTPAPIClient') ].
 			spec group: 'StripeClient' with: #('Stripe-HTTPAPIClient-Zinc') ]
