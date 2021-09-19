@@ -1,0 +1,2 @@
+SmalltalkCISpec {  #loading : [    SCIMetacelloLoadSpec {  	 #baseline : 'Stripe',          #platforms : [ #pharo, #gemstone ],
+#onWarningLog : true,#onConflict: #useLoaded    }  ]}

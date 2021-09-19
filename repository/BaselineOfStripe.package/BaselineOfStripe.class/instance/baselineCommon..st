@@ -9,13 +9,13 @@ baselineCommon: spec
 			spec
 				baseline: 'HTTPAPIClient'
 				with:
-					[ spec repository: 'github://pdebruic/HTTPAPIClient/repository' ].
+					[ spec repository: 'github://pdebruic/HTTPAPIClient:main/repository' ].
 			spec
 				baseline: 'Money'
-				with: [ spec repository: 'github://pdebruic/Money/repository' ].
+				with: [ spec repository: 'github://pdebruic/Money:main/repository' ].
 			spec
 				baseline: 'JSON'
-				with: [ spec repository: 'github://pdebruic/JSON/repository' ].
+				with: [ spec repository: 'github://pdebruic/JSON:main/repository' ].
 			spec
 				package: 'Stripe-Core' with: [ spec requires: #('JSON') ];
 				package: 'Stripe-Tests'
