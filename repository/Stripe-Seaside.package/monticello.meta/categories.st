@@ -1,1 +1,1 @@
-SystemOrganization addCategory: 'Stripe-Seaside'!
+self packageOrganizer ensurePackage: #'Stripe-Seaside' withTags: #()!
